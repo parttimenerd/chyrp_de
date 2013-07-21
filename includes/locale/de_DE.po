@@ -1,0 +1,2865 @@
+# Chyrp v2.5 Translation File.
+# Copyright (C) 2012 Chyrp Team
+# This file is distributed under the same license as the Chyrp v2.5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chyrp v2.5\n"
+"Report-Msgid-Bugs-To: email@chyrp.net\n"
+"POT-Creation-Date: 2012-12-09 19:24+0000\n"
+"PO-Revision-Date: 2013-07-21 20:54+0100\n"
+"Last-Translator: Johannes Bechberger <me@mostlynerdless.de>\n"
+"Language-Team: German <me@mostlynerdless.de>\n"
+"Language: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: admin/index.php:17 includes/ajax.php:16 includes/ajax.php:32
+#: includes/ajax.php:57 includes/ajax.php:95 includes/controller/Admin.php:66
+#: includes/controller/Admin.php:86 includes/controller/Admin.php:94
+#: includes/controller/Admin.php:102 includes/controller/Admin.php:108
+#: includes/controller/Admin.php:117 includes/controller/Admin.php:151
+#: includes/controller/Admin.php:177 includes/controller/Admin.php:180
+#: includes/controller/Admin.php:207 includes/controller/Admin.php:229
+#: includes/controller/Admin.php:232 includes/controller/Admin.php:255
+#: includes/controller/Admin.php:272 includes/controller/Admin.php:276
+#: includes/controller/Admin.php:289 includes/controller/Admin.php:347
+#: includes/controller/Admin.php:358 includes/controller/Admin.php:361
+#: includes/controller/Admin.php:383 includes/controller/Admin.php:399
+#: includes/controller/Admin.php:402 includes/controller/Admin.php:439
+#: includes/controller/Admin.php:453 includes/controller/Admin.php:462
+#: includes/controller/Admin.php:485 includes/controller/Admin.php:502
+#: includes/controller/Admin.php:519 includes/controller/Admin.php:522
+#: includes/controller/Admin.php:561 includes/controller/Admin.php:581
+#: includes/controller/Admin.php:586 includes/controller/Admin.php:622
+#: includes/controller/Admin.php:638 includes/controller/Admin.php:647
+#: includes/controller/Admin.php:684 includes/controller/Admin.php:702
+#: includes/controller/Admin.php:714 includes/controller/Admin.php:717
+#: includes/controller/Admin.php:730 includes/controller/Admin.php:746
+#: includes/controller/Admin.php:749 includes/controller/Admin.php:776
+#: includes/controller/Admin.php:793 includes/controller/Admin.php:802
+#: includes/controller/Admin.php:826 includes/controller/Admin.php:847
+#: includes/controller/Admin.php:1064 includes/controller/Admin.php:1078
+#: includes/controller/Admin.php:1203 includes/controller/Admin.php:1327
+#: includes/controller/Admin.php:1458 includes/controller/Admin.php:1530
+#: includes/controller/Admin.php:1632 includes/controller/Admin.php:1730
+#: includes/controller/Admin.php:1781 includes/controller/Admin.php:1878
+#: includes/controller/Admin.php:1880 includes/controller/Admin.php:1949
+#: includes/controller/Admin.php:1951 includes/controller/Admin.php:1986
+#: includes/controller/Admin.php:2019 includes/controller/Admin.php:2052
+#: includes/controller/Admin.php:2078 includes/controller/Admin.php:2096
+#: includes/controller/Admin.php:2117 includes/controller/Admin.php:2123
+#: includes/controller/Admin.php:2146 includes/controller/Admin.php:2152
+#: includes/controller/Admin.php:2171 includes/controller/Admin.php:2177
+#: includes/controller/Admin.php:2193 includes/controller/Main.php:377
+#: includes/helpers.php:84 includes/uploaded.php:5 includes/uploader.php:5
+#: includes/uppload.php:5 index.php:19
+msgid "Access Denied"
+msgstr "Zugriff verweigert"
+
+#: admin/index.php:17 includes/ajax.php:16 index.php:19
+msgid "You are not allowed to view this site."
+msgstr "Du bist nicht dazu befugt diese Seite anzusehen."
+
+#: admin/themes/default/info.yaml:1
+msgid "Default"
+msgstr "Standard"
+
+#: admin/themes/default/info.yaml:4
+msgid "The default theme provided with Chyrp, which all themes fallback onto."
+msgstr ""
+"Das Standard-Theme, welches mit Chyrp mitgeliefert wird und auf das alle "
+"anderes Themes zurückgreifen."
+
+#: admin/themes/default/layout.twig:33
+msgid "Log Out &rsaquo;"
+msgstr "Abmelden &rsaquo;"
+
+#: admin/themes/default/layout.twig:34 includes/feed.php:38
+msgid "Guest"
+msgstr "Gast"
+
+#: admin/themes/default/layout.twig:34
+#, php-format
+msgid "Hello, %s!"
+msgstr "Hallo, %s!"
+
+#: admin/themes/default/layout.twig:35
+msgid "View Site &rsaquo;"
+msgstr "Sieh deine Seite &rsaquo;"
+
+#: admin/themes/default/layout.twig:65
+msgid "Chyrp loves you."
+msgstr "Chyrp liebt dich."
+
+#: admin/themes/default/layout.twig:67
+#, php-format
+msgid "v%s &dash; &copy; %d, Chyrp Team"
+msgstr "v%s &dash; &copy; %d, Chyrp Team"
+
+#: admin/themes/default/pages/bookmarklet.twig:7
+#: admin/themes/default/pages/bookmarklet.twig:234 includes/admin.js.php:176
+msgid "Chyrp!"
+msgstr "Chyrp!"
+
+#: admin/themes/default/pages/bookmarklet.twig:190
+#: admin/themes/default/pages/export.twig:16
+#: admin/themes/default/pages/export.twig:26
+#: admin/themes/default/pages/export.twig:36
+#: admin/themes/default/pages/export.twig:49
+#: admin/themes/default/pages/general_settings.twig:23
+#: admin/themes/default/pages/import.twig:28
+#: admin/themes/default/pages/import.twig:58
+#: admin/themes/default/pages/import.twig:122
+#: admin/themes/default/pages/import.twig:161
+#: admin/themes/default/partials/post_fields.twig:7 install.php:577
+msgid "(optional)"
+msgstr "(optional)"
+
+#: admin/themes/default/pages/bookmarklet.twig:214
+#: admin/themes/default/partials/page_fields.twig:15
+#: admin/themes/default/partials/post_fields.twig:47
+msgid "Publish"
+msgstr "Veröffentliche"
+
+#: admin/themes/default/pages/bookmarklet.twig:258
+msgid "or wait 1 seconds."
+msgstr "oder warte eine Sekunde."
+
+#: admin/themes/default/pages/bookmarklet.twig:260
+msgid "or wait 2 seconds."
+msgstr "oder warte zwei Sekunden."
+
+#: admin/themes/default/pages/bookmarklet.twig:274 install.php:628
+#: upgrade.php:1365
+msgid "Done!"
+msgstr "Fertig!"
+
+#: admin/themes/default/pages/bookmarklet.twig:276
+msgid "Close this window"
+msgstr "Schließe dieses Fenster"
+
+#: admin/themes/default/pages/bookmarklet.twig:279
+msgid "or wait 3 seconds."
+msgstr "oder warte 3 Sekunden."
+
+#: admin/themes/default/pages/content_settings.twig:3
+msgid "Content Settings"
+msgstr "Inhaltseinstellungen"
+
+#: admin/themes/default/pages/content_settings.twig:9
+msgid "Posts Per Page"
+msgstr "Artikel pro Seite"
+
+#: admin/themes/default/pages/content_settings.twig:13
+msgid "Feed Posts Limit"
+msgstr "Maximum an Artikeln im Feed "
+
+#: admin/themes/default/pages/content_settings.twig:17
+msgid "Feed URL"
+msgstr "Feed URL"
+
+#: admin/themes/default/pages/content_settings.twig:21
+msgid ""
+"Allows you to set an alternative URL for <code>/feed/</code>, e.g. your feed "
+"on <a href=\"http://feedburner.com/\">FeedBurner</a>."
+msgstr ""
+"Erlaubt dir eine alternative URL für <code>/feed/</code> festzulegen, z.B. "
+"zu deinem Feed bei <a href=\"http://feedburner.com/\">FeedBurner</a>."
+
+#: admin/themes/default/pages/content_settings.twig:23
+msgid ""
+"Allows you to set an alternative URL for <code>/?feed</code>, e.g. your feed "
+"on FeedBurner."
+msgstr ""
+"Erlaubt dir eine alternative URL für <code>/feed/</code> festzulegen, z.B. "
+"zu deinem Feed bei FeedBurner."
+
+#: admin/themes/default/pages/content_settings.twig:28
+msgid "Uploads Path"
+msgstr "Speicherort für hochgeladene Dateien"
+
+#: admin/themes/default/pages/content_settings.twig:31
+msgid ""
+"The directory, relative to your Chyrp install, to upload files to. You can "
+"use <code>/../</code> to go up one directory."
+msgstr ""
+"Das Verzeichnis, relativ zu deiner Chyrp Installation, in dem die "
+"hochgeladenen Dateien gespeichert werden. Du kannst <code>/../</code> "
+"benutzen um ein Verzeichnis hochzugehen."
+
+#: admin/themes/default/pages/content_settings.twig:35
+msgid "Enable Trackbacking"
+msgstr "Ermögliche Trackbacking"
+
+#: admin/themes/default/pages/content_settings.twig:38
+msgid ""
+"Trackbacking allows sites to notify you when they write a new entry, usually "
+"because they link to or reference yours."
+msgstr ""
+"Trackbacking ermöglicht es Webseiten dich zu informieren, wenn sie einen "
+"neuen Beitrag schreiben, (normalerweise) weil sie auf deine Seite verweisen."
+
+#: admin/themes/default/pages/content_settings.twig:42
+msgid "Send Pingbacks"
+msgstr "Sende Pingbacks"
+
+#: admin/themes/default/pages/content_settings.twig:45
+msgid ""
+"Attempts to notify sites linked to from your posts. It'll slow down things a "
+"bit when you submit them, depending on how many links you've got in it."
+msgstr ""
+"Versucht andere Seiten zu benachrichtigen, auf welche du in deinem Artikel "
+"verweist Es wird die Dinge ein bisschen verlangsamen, wenn du sie absendest, "
+"abhängig davon, wie viele Verweise du in ihm hast."
+
+#: admin/themes/default/pages/content_settings.twig:49
+msgid "Enable XML-RPC Support"
+msgstr "Aktiviere XML-RPC Unterstützung"
+
+#: admin/themes/default/pages/content_settings.twig:52
+msgid ""
+"XML-RPC support allows for remote access to your site. This allows you to "
+"use remote clients (e.g., <a href=\"http://www.red-sweater.com/marsedit/"
+"\">MarsEdit</a> or <a href=\"http://flickr.com/help/blogging/\">Flickr</a>) "
+"to create/edit content on your site."
+msgstr ""
+"XML-RPC Unterstützung erlaubt Fernzugriff zu  deiner Seite. Das erlaubt "
+"anderen Programmen und Seiten (z..B., <a href=\"http://www.red-sweater.com/"
+"marsedit/\">MarsEdit</a> or <a href=\"http://flickr.com/help/blogging/"
+"\">Flickr</a>) Inhalte auf deiner Seite zu erzeugen oder zu bearbeiten."
+
+#: admin/themes/default/pages/content_settings.twig:56
+msgid "Enable Inline Post Management"
+msgstr "Aktiviere die eingebettete Artikel Verwaltung"
+
+#: admin/themes/default/pages/content_settings.twig:59
+msgid "Harness the power of AJAX for inline post/page editing."
+msgstr ""
+"Nutze die Macht von AJAX für die eingebettete Artikel-/Seiten-Bearbeitung"
+
+#: admin/themes/default/pages/content_settings.twig:63
+msgid "Enable WYSIWYG Text Editor"
+msgstr "Aktiviere den WYSIWYG (\"Was du siehst bekommst du\") Text Editor"
+
+#: admin/themes/default/pages/content_settings.twig:66
+msgid "Use a visual WYSIWYG Text Editor."
+msgstr ""
+"Benutze einen visuellen WYSIWYG (\"Was du siehst bekommst du\") Editor."
+
+#: admin/themes/default/pages/content_settings.twig:71
+#: admin/themes/default/pages/edit_group.twig:29
+#: admin/themes/default/pages/edit_user.twig:50
+#: admin/themes/default/pages/general_settings.twig:54
+#: admin/themes/default/pages/route_settings.twig:44
+#: admin/themes/default/pages/user_settings.twig:41
+msgid "Update"
+msgstr "Aktualisierung"
+
+#: admin/themes/default/pages/delete_group.twig:3
+#, php-format
+msgid "Delete Group &#8220;%s&#8221;?"
+msgstr "Lösche die Gruppe &#8220;%s&#8221;?"
+
+#: admin/themes/default/pages/delete_group.twig:6
+#, php-format
+msgid "Are you sure you want to delete the &#8220;%s&#8221; group?"
+msgstr ""
+"Bist du dir wirklich sicher, dass du die &#8220;%s&#8221; Gruppe lösche "
+"willst?"
+
+#: admin/themes/default/pages/delete_group.twig:11
+msgid "Members:"
+msgstr "Mitglieder:"
+
+#: admin/themes/default/pages/delete_group.twig:19
+msgid "Move members to:"
+msgstr "Verschiebe die Mitglieder nach:"
+
+#: admin/themes/default/pages/delete_group.twig:30
+msgid "New default group:"
+msgstr "Neue Standardgruppe:"
+
+#: admin/themes/default/pages/delete_group.twig:40
+msgid "New &#8220;guest&#8221; group:"
+msgstr "Neue &#8220;guest&#8221; Gruppe:"
+
+#: admin/themes/default/pages/delete_group.twig:52
+#: admin/themes/default/pages/delete_page.twig:25
+#: admin/themes/default/pages/delete_post.twig:16
+#: admin/themes/default/pages/delete_user.twig:81
+msgid "DESTROY!"
+msgstr "ZERSTÖRE!"
+
+#: admin/themes/default/pages/delete_group.twig:53
+#: admin/themes/default/pages/delete_page.twig:26
+#: admin/themes/default/pages/delete_post.twig:17
+#: admin/themes/default/pages/delete_user.twig:82
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/themes/default/pages/delete_page.twig:3
+#, php-format
+msgid "Delete Page &#8220;%s&#8221;?"
+msgstr "Lösche Seite &#8220;%s&#8221;?"
+
+#: admin/themes/default/pages/delete_page.twig:6
+#: admin/themes/default/pages/delete_post.twig:6
+#, php-format
+msgid "Are you sure you want to delete &#8220;%s&#8221;?"
+msgstr "Bist du dir sicher, dass du &#8220;%s&#8221; löschen möchtest?"
+
+#: admin/themes/default/pages/delete_page.twig:10
+#: admin/themes/default/pages/delete_post.twig:10
+msgid "Excerpt"
+msgstr "Ausschnitt"
+
+#: admin/themes/default/pages/delete_page.twig:14
+msgid "Delete children?"
+msgstr "Lösche Kinder?"
+
+#: admin/themes/default/pages/delete_post.twig:3
+#, php-format
+msgid "Delete &#8220;%s&#8221;?"
+msgstr "Lösche &#8220;%s&#8221;?"
+
+#: admin/themes/default/pages/delete_user.twig:3
+#, php-format
+msgid "Delete User &#8220;%s&#8221;?"
+msgstr "Lösche Benutzer &#8220;%s&#8221;?"
+
+#: admin/themes/default/pages/delete_user.twig:6
+#, php-format
+msgid "Are you sure you want to delete user &#8220;%s&#8221;?"
+msgstr ""
+"Bist du dir sicher, dass du den Benutzer &#8220;%s&#8221; löschen willst?"
+
+#: admin/themes/default/pages/delete_user.twig:10
+#: admin/themes/default/pages/edit_user.twig:10
+#: admin/themes/default/pages/new_user.twig:32
+msgid "Information"
+msgstr "Informationen"
+
+#: admin/themes/default/pages/delete_user.twig:13
+msgid "Full Name:"
+msgstr "Vollständiger Name:"
+
+#: admin/themes/default/pages/delete_user.twig:15
+msgid "E-Mail:"
+msgstr "E-Mail-Adresse:"
+
+#: admin/themes/default/pages/delete_user.twig:17
+msgid "Website:"
+msgstr "Webseite:"
+
+#: admin/themes/default/pages/delete_user.twig:19
+msgid "Group:"
+msgstr "Gruppe:"
+
+#: admin/themes/default/pages/delete_user.twig:23
+msgid "Posts:"
+msgstr "Artikel:"
+
+#: admin/themes/default/pages/delete_user.twig:33
+msgid "Attribute posts to:"
+msgstr "Ordne die Artikel ... zu:"
+
+#: admin/themes/default/pages/delete_user.twig:44
+msgid "Delete posts."
+msgstr "Lösche die Artikel."
+
+#: admin/themes/default/pages/delete_user.twig:50
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: admin/themes/default/pages/delete_user.twig:60
+msgid "Attribute pages to:"
+msgstr "Ordne die Seiten ... zu:"
+
+#: admin/themes/default/pages/delete_user.twig:71
+msgid "Delete pages."
+msgstr "Lösche die Seiten."
+
+#: admin/themes/default/pages/edit_group.twig:3
+#, php-format
+msgid "Edit Group &#8220;%s&#8221;"
+msgstr "Bearbeite die Gruppe &#8220;%s&#8221;"
+
+#: admin/themes/default/pages/edit_group.twig:6
+#: admin/themes/default/pages/edit_page.twig:6
+#: admin/themes/default/pages/edit_post.twig:6
+#: admin/themes/default/pages/edit_user.twig:6 includes/class/Model.php:459
+msgid "Delete"
+msgstr "Lösche"
+
+#: admin/themes/default/pages/edit_group.twig:7
+#, php-format
+msgid "Editing Group &#8220;%s&#8221;"
+msgstr "Bearbeite gerade die Gruppe &#8220;%s&#8221;"
+
+#: admin/themes/default/pages/edit_group.twig:11
+#: admin/themes/default/pages/manage_users.twig:29
+#: admin/themes/default/pages/new_group.twig:10
+msgid "Name"
+msgstr "Name"
+
+#: admin/themes/default/pages/edit_group.twig:15
+#: admin/themes/default/pages/new_group.twig:14
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: admin/themes/default/pages/edit_page.twig:3
+#: admin/themes/default/pages/edit_post.twig:3
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Bearbeite &#8220;%s&#8221;"
+
+#: admin/themes/default/pages/edit_page.twig:7
+#: admin/themes/default/pages/edit_post.twig:7
+#, php-format
+msgid "Editing &#8220;%s&#8221;"
+msgstr "Bearbeite gerade &#8220;%s&#8221;"
+
+#: admin/themes/default/pages/edit_user.twig:3
+#, php-format
+msgid "Edit User &#8220;%s&#8221;"
+msgstr "Bearbeite Benutzer &#8220;%s&#8221;"
+
+#: admin/themes/default/pages/edit_user.twig:7
+#, php-format
+msgid "Editing User &#8220;%s&#8221;"
+msgstr "Bearbeite gerade Benutzer &#8220;%s&#8221;"
+
+#: admin/themes/default/pages/edit_user.twig:12
+#: admin/themes/default/pages/new_user.twig:34
+msgid "Full Name"
+msgstr "Vollstängiger Name"
+
+#: admin/themes/default/pages/edit_user.twig:16
+#: admin/themes/default/pages/new_user.twig:38
+msgid "E-Mail"
+msgstr "E-Mail-Adresse"
+
+#: admin/themes/default/pages/edit_user.twig:20
+#: admin/themes/default/pages/manage_users.twig:32
+#: admin/themes/default/pages/new_user.twig:42
+msgid "Website"
+msgstr "Webseite"
+
+#: admin/themes/default/pages/edit_user.twig:24
+#: admin/themes/default/pages/new_user.twig:9
+#: includes/controller/Admin.php:2426
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/themes/default/pages/edit_user.twig:26
+#: admin/themes/default/pages/new_user.twig:11
+msgid "Login"
+msgstr "Anmeldung"
+
+#: admin/themes/default/pages/edit_user.twig:30
+#: admin/themes/default/pages/manage_users.twig:30
+#: admin/themes/default/pages/new_user.twig:15
+#: admin/themes/default/partials/post_fields.twig:71
+msgid "Group"
+msgstr "Gruppe"
+
+#: admin/themes/default/pages/edit_user.twig:38
+msgid "New Password?"
+msgstr "Neues Passwort?"
+
+#: admin/themes/default/pages/edit_user.twig:42
+#: admin/themes/default/pages/new_user.twig:28
+msgid "Confirm"
+msgstr "Bestätige"
+
+#: admin/themes/default/pages/export.twig:3
+#: admin/themes/default/pages/export.twig:56
+#: includes/controller/Admin.php:2288
+msgid "Export"
+msgstr "Exportieren"
+
+#: admin/themes/default/pages/export.twig:6
+msgid "What would you like to export?"
+msgstr "Was möchtest du exportieren?"
+
+#: admin/themes/default/pages/export.twig:10
+#: includes/controller/Admin.php:2268
+msgid "Posts"
+msgstr "Artikel"
+
+#: admin/themes/default/pages/export.twig:13
+#: admin/themes/default/pages/export.twig:23
+#: admin/themes/default/pages/export.twig:33
+#: admin/themes/default/pages/export.twig:46
+msgid "filter:"
+msgstr "Filter:"
+
+#: admin/themes/default/pages/export.twig:20
+#: includes/controller/Admin.php:2271
+msgid "Pages"
+msgstr "Seiten"
+
+#: admin/themes/default/pages/export.twig:30
+#: admin/themes/default/pages/manage_groups.twig:22
+#: includes/controller/Admin.php:2279
+msgid "Groups"
+msgstr "Gruppen"
+
+#: admin/themes/default/pages/export.twig:40
+#: admin/themes/default/pages/manage_users.twig:25
+#: includes/controller/Admin.php:2274 includes/controller/Admin.php:2307
+msgid "Users"
+msgstr "Benutzer"
+
+#: admin/themes/default/pages/export.twig:43
+msgid "(warning: this also exports the hashed passwords, keep it safe)"
+msgstr ""
+"(Warnung: es werden auch die verwürfelten Passwörter exportiert - bewahre "
+"sie sicher auf)"
+
+#: admin/themes/default/pages/feathers.twig:3
+#: includes/controller/Admin.php:2317
+msgid "Feathers"
+msgstr "Federn"
+
+#: admin/themes/default/pages/feathers.twig:7
+#: admin/themes/default/pages/modules.twig:7
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: admin/themes/default/pages/feathers.twig:15
+#: admin/themes/default/pages/feathers.twig:35
+#: admin/themes/default/pages/modules.twig:15
+#: admin/themes/default/pages/modules.twig:46
+#, php-format
+msgid "<a href=\"%s\">%s</a> v%s <span class=\"sub\">by %s</span>"
+msgstr "<a href=\"%s\">%s</a> v%s <span class=\"sub\"> von %s</span>"
+
+#: admin/themes/default/pages/feathers.twig:20
+#: admin/themes/default/pages/modules.twig:30
+msgid "Disable"
+msgstr "Deaktiviere"
+
+#: admin/themes/default/pages/feathers.twig:27
+#: admin/themes/default/pages/modules.twig:38
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: admin/themes/default/pages/feathers.twig:40
+#: admin/themes/default/pages/modules.twig:61
+msgid "Enable"
+msgstr "Aktiviert"
+
+#: admin/themes/default/pages/feathers.twig:48
+msgid "Get More Feathers &rsaquo;"
+msgstr "Hole mehr Federn &rsaquo;"
+
+#: admin/themes/default/pages/general_settings.twig:3
+msgid "Site Configuration"
+msgstr "Webseiten Konfiguration"
+
+#: admin/themes/default/pages/general_settings.twig:9 install.php:586
+msgid "Site Name"
+msgstr "Name dieser Webseite"
+
+#: admin/themes/default/pages/general_settings.twig:13 install.php:590
+msgid "Description"
+msgstr "Beschreibung"
+
+#: admin/themes/default/pages/general_settings.twig:17
+msgid "Chyrp URL"
+msgstr "Chyrp URL"
+
+#: admin/themes/default/pages/general_settings.twig:22
+#: includes/controller/Admin.php:2226
+msgid "Alternate URL"
+msgstr "Alternative URL"
+
+#: admin/themes/default/pages/general_settings.twig:28
+msgid ""
+"Enter an alternate address here if you want your homepage URL to be "
+"different from the URL where Chyrp is normally available."
+msgstr ""
+"Gebe eine alternative Adresse hier an, wenn du möchtest, dass deine "
+"Webseiten URL anders lautet, wei jene, vie welcher Chyrp normalerweise "
+"erreichbar ist."
+
+#: admin/themes/default/pages/general_settings.twig:32
+msgid "Contact E-Mail Address"
+msgstr "Kontakt-E-Mail-Adresse"
+
+#: admin/themes/default/pages/general_settings.twig:36 install.php:594
+msgid "What time is it?"
+msgstr "Wie wird das Datum dargestellt?"
+
+#: admin/themes/default/pages/general_settings.twig:39
+msgid "%m/%d/%y %H:%M"
+msgstr "%d.%m.%y %H:%M"
+
+#: admin/themes/default/pages/general_settings.twig:44
+msgid "Language"
+msgstr "Sprache"
+
+#: admin/themes/default/pages/import.twig:3
+#: admin/themes/default/pages/import.twig:39
+#: admin/themes/default/pages/import.twig:67
+#: admin/themes/default/pages/import.twig:86
+#: admin/themes/default/pages/import.twig:130
+#: admin/themes/default/pages/import.twig:169
+#: includes/controller/Admin.php:2286
+msgid "Import"
+msgstr "Importieren"
+
+#: admin/themes/default/pages/import.twig:10
+msgid "Posts .atom File"
+msgstr "Artikel .atom Datei"
+
+#: admin/themes/default/pages/import.twig:14
+msgid "Pages .atom File"
+msgstr "Seiten .atom Datei"
+
+#: admin/themes/default/pages/import.twig:18
+msgid "Groups .yaml File"
+msgstr "Gruppen .yaml Datei"
+
+#: admin/themes/default/pages/import.twig:22
+msgid "Users .yaml File"
+msgstr "Benutzer .yaml Datei"
+
+#: admin/themes/default/pages/import.twig:27
+#: admin/themes/default/pages/import.twig:57
+#: admin/themes/default/pages/import.twig:121
+#: admin/themes/default/pages/import.twig:160
+msgid "What URL is used for embedded media?"
+msgstr "Welche URL wird verwendet, um Medien einzubetten?"
+
+#: admin/themes/default/pages/import.twig:32
+msgid "Usually something like <code>http://example.com/uploads/</code>."
+msgstr ""
+"Normalerweise eine Adresse wie <code>http://mustermann.de/uploads/</code>."
+
+#: admin/themes/default/pages/import.twig:35
+msgid ""
+"When importing posts make sure that the required feathers are enabled "
+"otherwise the posts won't display."
+msgstr ""
+"Stelle sicher, dass die benötigten Federn aktiviert sind, wenn Artikel "
+"importiert werden, sonst werden die Artikel nicht angezeigt."
+
+#: admin/themes/default/pages/import.twig:52
+msgid "eXtended .XML File"
+msgstr "Erweitere .XML Datei"
+
+#: admin/themes/default/pages/import.twig:62
+msgid ""
+"Usually something like <code>http://example.com/wp-content/uploads/</code>."
+msgstr ""
+"Normalerweise eine Adresse wie <code>http://mustermann.de/wp-content/uploads/"
+"</code>."
+
+#: admin/themes/default/pages/import.twig:80
+msgid "Your Tumblr URL"
+msgstr "Deine Tumblr URL"
+
+#: admin/themes/default/pages/import.twig:82
+msgid "Note: Audio tumbles cannot be imported."
+msgstr "Beachte folgendes: Audio tumbles können nicht importiert werden."
+
+#: admin/themes/default/pages/import.twig:99
+#: admin/themes/default/pages/import.twig:143 install.php:555
+msgid "Host"
+msgstr "Host"
+
+#: admin/themes/default/pages/import.twig:103
+#: admin/themes/default/pages/import.twig:147 install.php:561 install.php:609
+msgid "Username"
+msgstr "Benutzername"
+
+#: admin/themes/default/pages/import.twig:107
+#: admin/themes/default/pages/import.twig:151
+#: admin/themes/default/pages/new_user.twig:24 install.php:567 install.php:613
+#: install.php:617
+msgid "Password"
+msgstr "Passwort"
+
+#: admin/themes/default/pages/import.twig:111
+#: admin/themes/default/pages/import.twig:155 install.php:572
+msgid "Database"
+msgstr "Datenbank"
+
+#: admin/themes/default/pages/import.twig:115 install.php:577
+msgid "Table Prefix"
+msgstr "Tabellenprefix"
+
+#: admin/themes/default/pages/import.twig:117
+msgid "(if any)"
+msgstr "(irgendwelche)"
+
+#: admin/themes/default/pages/import.twig:126
+#: admin/themes/default/pages/import.twig:165
+msgid "Usually something like <code>http://example.com/images/</code>."
+msgstr "Normalerweise etwas wie <code>http://mustermann.de/images/</code>."
+
+#: admin/themes/default/pages/manage_groups.twig:3
+msgid "Manage Groups"
+msgstr "Verwalte Gruppen"
+
+#: admin/themes/default/pages/manage_groups.twig:6
+#: admin/themes/default/pages/manage_pages.twig:6
+#: admin/themes/default/pages/manage_posts.twig:6
+#: admin/themes/default/pages/manage_users.twig:6
+msgid "Need more detail?"
+msgstr "Benötigtst du mehr Informationen?"
+
+#: admin/themes/default/pages/manage_groups.twig:12
+#: admin/themes/default/pages/new_group.twig:3
+msgid "New Group"
+msgstr "Neue Gruppe"
+
+#: admin/themes/default/pages/manage_groups.twig:16
+msgid "Search all groups for user&hellip;"
+msgstr "Suche in alle Gruppen  nach Benutzer&hellip;"
+
+#: admin/themes/default/pages/manage_groups.twig:17
+#: admin/themes/default/pages/manage_pages.twig:15
+#: admin/themes/default/pages/manage_posts.twig:15
+#: admin/themes/default/pages/manage_users.twig:20
+msgid "Search &rarr;"
+msgstr "Suche &rarr;"
+
+#: admin/themes/default/pages/manage_groups.twig:27
+#: admin/themes/default/pages/manage_pages.twig:41
+#: admin/themes/default/pages/manage_pages.twig:44
+#: admin/themes/default/pages/manage_posts.twig:52
+#: admin/themes/default/pages/manage_posts.twig:55
+#: admin/themes/default/pages/manage_users.twig:52
+#: admin/themes/default/pages/manage_users.twig:55
+msgid "edit"
+msgstr "bearbeite"
+
+#: admin/themes/default/pages/manage_groups.twig:28
+#: admin/themes/default/pages/manage_pages.twig:42
+#: admin/themes/default/pages/manage_pages.twig:45
+#: admin/themes/default/pages/manage_posts.twig:53
+#: admin/themes/default/pages/manage_posts.twig:56
+#: admin/themes/default/pages/manage_users.twig:53
+#: admin/themes/default/pages/manage_users.twig:56
+msgid "delete"
+msgstr "lösche"
+
+#: admin/themes/default/pages/manage_groups.twig:31
+#, php-format
+msgid "&#8220;%s&#8221; is the group for guests."
+msgstr "&#8220;%s&#8221; ist die Gruppe für Gäste."
+
+#: admin/themes/default/pages/manage_groups.twig:33
+#, php-format
+msgid ""
+"&#8220;%s&#8221; is the default group and has %d <a href=\"%s\">member</a>."
+msgid_plural ""
+"&#8220;%s&#8221; is the default group and has %d <a href=\"%s\">members</a>."
+msgstr[0] ""
+"&#8220;%s&#8221; ist die Standardgruppe und hat %d <a href=\"%s\">Mitglied</"
+"a>."
+msgstr[1] ""
+"&#8220;%s&#8221; ist die Standardgruppe und hat %d <a href=\"%s"
+"\">Mitglieder</a>."
+
+#: admin/themes/default/pages/manage_groups.twig:35
+#, php-format
+msgid "&#8220;%s&#8221; has %d <a href=\"%s\">member</a>."
+msgid_plural "&#8220;%s&#8221; has %d <a href=\"%s\">members</a>."
+msgstr[0] "&#8220;%s&#8221; hat ein <!-- %d --><a href=\"%s\">Mitglied</a>."
+msgstr[1] "&#8220;%s&#8221; hat %d <a href=\"%s\">Mitglieder</a>."
+
+#: admin/themes/default/pages/manage_groups.twig:44
+#: admin/themes/default/pages/manage_pages.twig:60
+#: admin/themes/default/pages/manage_posts.twig:71
+#: admin/themes/default/pages/manage_users.twig:71
+#, php-format
+msgid "Page %d of %d"
+msgstr "Seite %d von %d"
+
+#: admin/themes/default/pages/manage_pages.twig:3
+msgid "Manage Pages"
+msgstr "Verwalte die Seiten"
+
+#: admin/themes/default/pages/manage_pages.twig:12
+#: admin/themes/default/pages/manage_posts.twig:12
+#: admin/themes/default/pages/manage_users.twig:17
+msgid "Search&hellip;"
+msgstr "Suche&hellip;"
+
+#: admin/themes/default/pages/manage_pages.twig:20
+#: admin/themes/default/pages/manage_posts.twig:31
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: admin/themes/default/pages/manage_pages.twig:20
+msgid "Last 25 Pages"
+msgstr "Die letzten 25 Seiten"
+
+#: admin/themes/default/pages/manage_pages.twig:24
+#: admin/themes/default/pages/manage_posts.twig:35
+#: admin/themes/default/partials/page_fields.twig:3
+msgid "Title"
+msgstr "Titel"
+
+#: admin/themes/default/pages/manage_pages.twig:25
+msgid "Created"
+msgstr "Erstellt"
+
+#: admin/themes/default/pages/manage_pages.twig:26
+msgid "Last Updated"
+msgstr "Zuletzt verändert"
+
+#: admin/themes/default/pages/manage_pages.twig:27
+#: admin/themes/default/pages/manage_posts.twig:38
+msgid "Author"
+msgstr "Autor"
+
+#: admin/themes/default/pages/manage_pages.twig:29
+#: admin/themes/default/pages/manage_posts.twig:40
+#: admin/themes/default/pages/manage_users.twig:34
+#: includes/controller/Main.php:645
+msgid "Controls"
+msgstr "Kontrolliert"
+
+#: admin/themes/default/pages/manage_pages.twig:37
+msgid "never"
+msgstr "nie"
+
+#: admin/themes/default/pages/manage_pages.twig:50
+#: admin/themes/default/pages/manage_posts.twig:61
+#: admin/themes/default/pages/manage_users.twig:61
+msgid "(none)"
+msgstr "(niemand)"
+
+#: admin/themes/default/pages/manage_pages.twig:65
+msgid "Reorder Pages"
+msgstr "Ordne die Seiten erneut"
+
+#: admin/themes/default/pages/manage_pages.twig:85
+msgid "Reorder"
+msgstr "Ordne erneut"
+
+#: admin/themes/default/pages/manage_posts.twig:3
+msgid "Manage Posts"
+msgstr "Verwalte die Artikel"
+
+#: admin/themes/default/pages/manage_posts.twig:18
+msgid "Browse by month:"
+msgstr "Durchstöbere nach Monaten:"
+
+#: admin/themes/default/pages/manage_posts.twig:25
+msgid "Show &rarr;"
+msgstr "Zeige &rarr;"
+
+#: admin/themes/default/pages/manage_posts.twig:31
+msgid "Last 25 Posts"
+msgstr "Die letzten 25 Artikel"
+
+#: admin/themes/default/pages/manage_posts.twig:36
+msgid "Posted"
+msgstr "Veröffentlicht"
+
+#: admin/themes/default/pages/manage_posts.twig:37
+#: admin/themes/default/partials/post_fields.twig:61
+msgid "Status"
+msgstr "Status"
+
+#: admin/themes/default/pages/manage_users.twig:3
+msgid "Manage Users"
+msgstr "Verwalte Benutzer"
+
+#: admin/themes/default/pages/manage_users.twig:12
+msgid "New User"
+msgstr "Neuer Benutzer"
+
+#: admin/themes/default/pages/manage_users.twig:31
+msgid "Joined"
+msgstr "Beigetreten"
+
+#: admin/themes/default/pages/modules.twig:3
+#: includes/controller/Admin.php:2315
+msgid "Modules"
+msgstr "Module"
+
+#: admin/themes/default/pages/modules.twig:21
+#: admin/themes/default/pages/modules.twig:52
+msgid "This Module requires the following Modules to be enabled:"
+msgstr "Dieses Module setzt die Aktivierung der folgenden Module vorraus:"
+
+#: admin/themes/default/pages/modules.twig:70
+msgid "Get More Modules &rsaquo;"
+msgstr "Hole mehr Module &rsaquo;"
+
+#: admin/themes/default/pages/new_group.twig:28
+msgid "Add Group"
+msgstr "Füge eine Gruppe hinzu"
+
+#: admin/themes/default/pages/new_user.twig:3
+#: admin/themes/default/pages/new_user.twig:52
+msgid "Add User"
+msgstr "Füge einen Benutzer hinzu"
+
+#: admin/themes/default/pages/route_settings.twig:3
+msgid "Route Settings"
+msgstr "Weiterleitungseinstellungen"
+
+#: admin/themes/default/pages/route_settings.twig:9
+msgid "Clean URLs?"
+msgstr "Saubere URLs?"
+
+#: admin/themes/default/pages/route_settings.twig:11
+msgid "(recommended)"
+msgstr "(empfohlen)"
+
+#: admin/themes/default/pages/route_settings.twig:13
+msgid "Gives your site prettier urls."
+msgstr "Verschafft deiner Webseite schönere URLs."
+
+#: admin/themes/default/pages/route_settings.twig:14
+msgid ""
+"Requires .htaccess support (pretty common). If you're unsure, it's safe to "
+"test and find out. Just come back and disable it if it breaks your site."
+msgstr ""
+"Setzt .htaccess Unterstützung vorraus (diese ist sehr oft vorhanden). Es ist "
+"ohne Schäden testbar - wenn du unsicher bist probiere es aus. Komm einfach "
+"zurück zu dieser Seite und deaktiviere es, wenn es deine Webseite "
+"unerreichbar macht."
+
+#: admin/themes/default/pages/route_settings.twig:19
+msgid "Post View URL"
+msgstr "Artikelansichts URL"
+
+#: admin/themes/default/pages/route_settings.twig:20
+msgid "(requires clean URLs)"
+msgstr "(benötigt saubere URLs)"
+
+#: admin/themes/default/pages/route_settings.twig:25
+msgid "Syntax:"
+msgstr "Syntaktik:"
+
+#: admin/themes/default/pages/route_settings.twig:27
+msgid "Year submitted"
+msgstr "Einreichungsjahr"
+
+#: admin/themes/default/pages/route_settings.twig:27
+msgid "(ex. 2007)"
+msgstr "(z.B. 2007)"
+
+#: admin/themes/default/pages/route_settings.twig:28
+msgid "Month submitted"
+msgstr "Einreichungsmonat"
+
+#: admin/themes/default/pages/route_settings.twig:28
+msgid "(ex. 12)"
+msgstr "(z.B. 12)"
+
+#: admin/themes/default/pages/route_settings.twig:29
+msgid "Day submitted"
+msgstr "Einreichungstag"
+
+#: admin/themes/default/pages/route_settings.twig:29
+msgid "(ex. 25)"
+msgstr "(z.B. 25)"
+
+#: admin/themes/default/pages/route_settings.twig:30
+msgid "Hour submitted"
+msgstr "Einreichungsstunde"
+
+#: admin/themes/default/pages/route_settings.twig:30
+msgid "(ex. 03)"
+msgstr "(z.B. 03)"
+
+#: admin/themes/default/pages/route_settings.twig:31
+msgid "Minute submitted"
+msgstr "Einreichungsminute"
+
+#: admin/themes/default/pages/route_settings.twig:31
+msgid "(ex. 59)"
+msgstr "(z.B. 59)"
+
+#: admin/themes/default/pages/route_settings.twig:32
+msgid "Second submitted"
+msgstr "Einreichungsminute"
+
+#: admin/themes/default/pages/route_settings.twig:32
+msgid "(ex. 30)"
+msgstr "(z.B. 30)"
+
+#: admin/themes/default/pages/route_settings.twig:33
+msgid "Post ID"
+msgstr "Artikel ID"
+
+#: admin/themes/default/pages/route_settings.twig:34
+msgid "Post author (username)"
+msgstr "Artikelautor (Benutzername)"
+
+#: admin/themes/default/pages/route_settings.twig:34
+msgid "(ex. Alex)"
+msgstr "(z.B. Alex)"
+
+#: admin/themes/default/pages/route_settings.twig:35
+msgid "The non-unique sanitized name"
+msgstr "Der nichteindeutige, gesäuberte Name"
+
+#: admin/themes/default/pages/route_settings.twig:35
+msgid "(ex. this_is_clean)"
+msgstr "(z.B. das_ist_sauber)"
+
+#: admin/themes/default/pages/route_settings.twig:36
+msgid "The unique form of (clean)"
+msgstr "Die eindeutige Form von (sauber)"
+
+#: admin/themes/default/pages/route_settings.twig:36
+msgid "(ex. this_one_is_taken_2)"
+msgstr "(z.B. dieser_ist_schon_belegt_2)"
+
+#: admin/themes/default/pages/route_settings.twig:37
+msgid "The post's feather"
+msgstr "Die Feder des Artikels"
+
+#: admin/themes/default/pages/route_settings.twig:37
+msgid "(ex. text)"
+msgstr "(z.B. Text)"
+
+#: admin/themes/default/pages/route_settings.twig:38
+msgid "The plural form of the post's feather"
+msgstr "Die Pluralform der Feder dieses Artikels"
+
+#: admin/themes/default/pages/route_settings.twig:38
+msgid "(ex. links)"
+msgstr "(z.B. Verweise)"
+
+#: admin/themes/default/pages/themes.twig:3 includes/controller/Admin.php:2319
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/themes/default/pages/themes.twig:17
+#: admin/themes/default/pages/themes.twig:42
+#, php-format
+msgid "v%s by %s"
+msgstr "v%s von %s"
+
+#: admin/themes/default/pages/themes.twig:21
+#: admin/themes/default/pages/themes.twig:46
+msgid "Current Theme"
+msgstr "Aktuelles Theme"
+
+#: admin/themes/default/pages/themes.twig:23
+#: admin/themes/default/pages/themes.twig:48
+msgid "Select"
+msgstr "Wähle"
+
+#: admin/themes/default/pages/themes.twig:24 includes/ajax.php:89
+msgid "Preview"
+msgstr "Vorschau"
+
+#: admin/themes/default/pages/themes.twig:30
+msgid "Admin Themes"
+msgstr "Admin Themes"
+
+#: admin/themes/default/pages/themes.twig:54
+msgid "Get More Themes &rsaquo;"
+msgstr "Hole mehr Themes &rsaquo;"
+
+#: admin/themes/default/pages/update.twig:3
+msgid "Update Chyrp"
+msgstr "Aktualiesiere Chyrp"
+
+#: admin/themes/default/pages/user_settings.twig:3
+msgid "User Settings"
+msgstr "Benutzereinstellungen"
+
+#: admin/themes/default/pages/user_settings.twig:9
+msgid "Registration"
+msgstr "Registrierung"
+
+#: admin/themes/default/pages/user_settings.twig:11
+msgid "Allow people to register"
+msgstr "Erlaube es, Leuten sich anzumelden"
+
+#: admin/themes/default/pages/user_settings.twig:14
+msgid "Activate by email"
+msgstr "Aktiviere per E-Mail"
+
+#: admin/themes/default/pages/user_settings.twig:16
+msgid "Should users activate by email?"
+msgstr "Sollten Benutzer sich via E-Mail aktivieren?"
+
+#: admin/themes/default/pages/user_settings.twig:19
+msgid "Enable Recaptcha"
+msgstr "Aktiviere Recaptcha"
+
+#: admin/themes/default/pages/user_settings.twig:21
+msgid "Use recaptcha to prevent bots from registering."
+msgstr "Benutze Recaptcha um zu verhindern, dass sich Spambots registiere.n"
+
+#: admin/themes/default/pages/user_settings.twig:24
+msgid "Default User Group"
+msgstr "Standardbenutzergruppe"
+
+#: admin/themes/default/pages/user_settings.twig:32
+msgid "&#8220;Guest&#8221; Group"
+msgstr "&#8220;Gast&#8221; Gruppe"
+
+#: admin/themes/default/pages/write_page.twig:3
+msgid "Add Page"
+msgstr "Füge eine Seite hinzu"
+
+#: admin/themes/default/pages/write_post.twig:3
+#: includes/controller/Admin.php:2413
+msgid "Write"
+msgstr "Schreibe"
+
+#: admin/themes/default/partials/page_fields.twig:7
+msgid "Body"
+msgstr "Textkörper"
+
+#: admin/themes/default/partials/page_fields.twig:17
+#: admin/themes/default/partials/post_fields.twig:42
+#: admin/themes/default/partials/post_fields.twig:51
+msgid "Save"
+msgstr "Speichere"
+
+#: admin/themes/default/partials/page_fields.twig:26
+msgid "Show in pages list?"
+msgstr "Zeige sie in der Seitenliste an?"
+
+#: admin/themes/default/partials/page_fields.twig:30
+#: admin/themes/default/partials/post_fields.twig:87
+msgid "Slug"
+msgstr "Kürzel"
+
+#: admin/themes/default/partials/page_fields.twig:34
+msgid "Parent"
+msgstr "Elternseite"
+
+#: admin/themes/default/partials/post_fields.twig:64
+msgid "Draft"
+msgstr "Entwurf"
+
+#: admin/themes/default/partials/post_fields.twig:66
+msgid "Public"
+msgstr "Öffentlich"
+
+#: admin/themes/default/partials/post_fields.twig:67
+msgid "Private"
+msgstr "Privat"
+
+#: admin/themes/default/partials/post_fields.twig:68
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: admin/themes/default/partials/post_fields.twig:69
+msgid "Registered Only"
+msgstr "Nur für registrierte Benutzer"
+
+#: admin/themes/default/partials/post_fields.twig:81
+msgid "Pinned?"
+msgstr "Festgeheftet?"
+
+#: admin/themes/default/partials/post_fields.twig:83
+msgid "(shows this post above all others)"
+msgstr "(zeigt diesen Artikel über allen anderen)"
+
+#: admin/themes/default/partials/post_fields.twig:93
+msgid "Timestamp"
+msgstr "Zeitstempel"
+
+#: admin/themes/default/partials/post_fields.twig:99
+#: includes/controller/Admin.php:2222
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: includes/admin.js.php:79
+msgid "You are a member of this group. Are you sure you want to delete it?"
+msgstr ""
+"Du bist ein Mitglied dieser Gruppe. Bist du sicher, dass du es löschen "
+"möchtest?"
+
+#: includes/admin.js.php:97
+msgid "Toggle All"
+msgstr "Schallte alle ein"
+
+#: includes/admin.js.php:230
+msgid "Preview &rarr;"
+msgstr "Vorschau &rarr;"
+
+#: includes/admin.js.php:250 includes/admin.js.php:267
+#: includes/javascript.php:49
+msgid "&uarr; Fewer Options"
+msgstr "&uarr; Mehr Einstellungen"
+
+#: includes/admin.js.php:252 includes/admin.js.php:270
+#: includes/javascript.php:52
+msgid "More Options &darr;"
+msgstr "Mehr Einstellungen &darr;"
+
+#: includes/admin.js.php:287
+msgid ""
+"You are a member of this group. Are you sure the permissions are as you want "
+"them?"
+msgstr ""
+"Du bist ein Mitglied dieser Gruppe. Bist du sicher, dass die Berechtigungen, "
+"so sind, wie du sie haben willst?"
+
+#: includes/admin.js.php:368
+msgid "(drag)"
+msgstr "(ziehe)"
+
+#: includes/admin.js.php:434
+msgid "There was an error enabling the extension."
+msgstr "Es gab ein Fehler beim Versuch diese Erweiterung zu aktivieren."
+
+#: includes/admin.js.php:436
+msgid "There was an error disabling the extension."
+msgstr "Es gab ein Fehler beim Versuch diese Erweiterung zu deaktivieren."
+
+#: includes/ajax.php:21 includes/controller/Admin.php:202
+#: includes/controller/Admin.php:250 includes/controller/Admin.php:266
+#: includes/controller/Admin.php:386 includes/controller/Admin.php:442
+#: includes/controller/Admin.php:456 includes/controller/Admin.php:564
+#: includes/controller/Admin.php:578 includes/controller/Admin.php:625
+#: includes/controller/Admin.php:641 includes/controller/Admin.php:733
+#: includes/controller/Admin.php:779 includes/controller/Admin.php:796
+msgid "No ID Specified"
+msgstr "Keine ID angegeben"
+
+#: includes/ajax.php:21
+msgid "Please specify an ID of the post you would like to edit."
+msgstr "Bitte gebe eine ID, des Artikels, den du bearbeiten möchstest, an."
+
+#: includes/ajax.php:32
+msgid "You do not have sufficient privileges to edit posts."
+msgstr ""
+"Du  verfügst nicht über die ausreichenden Rechte, um Beiträge zu bearbeiten."
+
+#: includes/ajax.php:57 includes/controller/Admin.php:255
+#: includes/controller/Admin.php:276
+msgid "You do not have sufficient privileges to delete this post."
+msgstr ""
+"Du verfügst nicht über die ausreichenden Rechte, um Beiträge zu löschen."
+
+#: includes/ajax.php:95
+msgid "You do not have sufficient privileges to enable/disable extensions."
+msgstr ""
+"Du verfügst nicht über die ausreichenden Rechte, um Erweiterungen zu "
+"Aktivieren/Deaktivieren."
+
+#: includes/ajax.php:120 includes/ajax.php:175
+#: includes/controller/Admin.php:1632 includes/controller/Admin.php:1878
+#: includes/controller/Admin.php:1949
+msgid "You do not have sufficient privileges to enable/disable modules."
+msgstr ""
+"Du verfügst nicht über die ausreichenden Rechte, um Module zu Aktivieren/"
+"Deaktivieren."
+
+#: includes/ajax.php:122 includes/ajax.php:177
+#: includes/controller/Admin.php:1730 includes/controller/Admin.php:1880
+#: includes/controller/Admin.php:1951
+msgid "You do not have sufficient privileges to enable/disable feathers."
+msgstr ""
+"Du verfügst nicht über die ausreichenden Berechtigungen, um Federn "
+"aktivieren/deaktivieren zu können."
+
+#: includes/ajax.php:145 includes/controller/Admin.php:1920
+#, php-format
+msgid ""
+"Please create the <code>%s</code> directory at your Chyrp install's root and "
+"CHMOD it to 777."
+msgstr ""
+"Bitte erstelle das <code>%s</code> Verzeichnis in deinem Wurzelverzeichnis "
+"deiner Chyrp Installation und CHMOD es zu 777."
+
+#: includes/ajax.php:147 includes/controller/Admin.php:1922
+#, php-format
+msgid "Please CHMOD <code>%s</code> to 777."
+msgstr "Bitte CHMOD <code>%s</code> zu 777."
+
+#: includes/ajax.php:152 includes/controller/Admin.php:1896
+msgid "Item is not a module."
+msgstr "Dieses Element ist kein Modul."
+
+#: includes/ajax.php:155 includes/controller/Admin.php:1899
+msgid "Item is not a feather."
+msgstr "Dieses Element ist keine Feder."
+
+#: includes/class/Model.php:435
+msgid "Edit"
+msgstr "Bearbeite"
+
+#: includes/class/Paginator.php:149
+msgid "Next &rarr;"
+msgstr "Nächste &rarr;"
+
+#: includes/class/Paginator.php:168
+msgid "&larr; Previous"
+msgstr "&larr; Vorherige"
+
+#: includes/class/Query.php:234 includes/class/SQL.php:149
+#: includes/class/SQL.php:157 includes/class/SQL.php:165
+#: includes/controller/Admin.php:1475 includes/controller/Admin.php:1547
+#: includes/controller/Admin.php:1572
+msgid "Database Error"
+msgstr "Datenbankfehler"
+
+#: includes/class/Route.php:230 includes/class/SQL.php:47
+#: includes/controller/Admin.php:364 includes/controller/Admin.php:405
+#: includes/controller/Admin.php:525 includes/controller/Admin.php:529
+#: includes/controller/Admin.php:532 includes/controller/Admin.php:534
+#: includes/controller/Admin.php:537 includes/controller/Admin.php:539
+#: includes/controller/Admin.php:2472 includes/controller/Main.php:313
+#: includes/controller/Main.php:408 includes/controller/Main.php:488
+#: includes/controller/Main.php:546 includes/controller/Main.php:549
+#: includes/controller/Main.php:557 includes/controller/Main.php:575
+#: includes/controller/Main.php:611 includes/controller/Main.php:626
+#: includes/controller/Main.php:826 includes/helpers.php:1025
+#: includes/helpers.php:1027 includes/helpers.php:1401
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/class/Route.php:230 includes/error.php:144
+msgid "Route was initiated without a Controller."
+msgstr "Die Weiterleitung (Route) wurde ohne Controller initiiert."
+
+#: includes/class/SQL.php:47
+msgid "Database configuration is not set. Please run the upgrader."
+msgstr ""
+"Die Datenbankkonfiguration ist nicht gesetzt. Bitte lasse die "
+"Aktuallisierung laufen."
+
+#: includes/class/Update.php:33
+#, php-format
+msgid ""
+"<p class='message'>Chyrp v%s is available, you have v%s. <a href='?"
+"action=update'>Learn More</a></p>"
+msgstr ""
+"<p class='message'>Chyrp v%s ist verfügbar, du hast v%s. <a href='?"
+"action=update'>Lerne Mehr</a></p>"
+
+#: includes/class/Update.php:98
+msgid "<h2>Chyrp is up to date!</h2>"
+msgstr "<h2>Chyrp ist auf dem aktuellsten Stand!</h2>"
+
+#: includes/class/Update.php:109
+msgid "<h2>File downloaded!</h2>"
+msgstr "<h2>Datei heruntergeladen!</h2>"
+
+#: includes/class/Update.php:119
+msgid "<h2>Something Went Wrong!</h2>"
+msgstr "<h2>Irgendetwas lief falsch!</h2>"
+
+#: includes/controller/Admin.php:66 includes/controller/Admin.php:86
+#: includes/controller/Admin.php:94 includes/controller/Admin.php:102
+#: includes/controller/Admin.php:108
+msgid "You do not have sufficient privileges to view this area."
+msgstr ""
+"Du  verfügst nicht über ausreichende Berechtingungen um diesen Bereich zu "
+"sehen."
+
+#: includes/controller/Admin.php:117 includes/controller/Admin.php:151
+#: includes/controller/Admin.php:177 includes/uploaded.php:5
+#: includes/uploader.php:5 includes/uppload.php:5
+msgid "You do not have sufficient privileges to create posts."
+msgstr ""
+"Du verfügst nicht über ausreichende Berechtingungen um Artikel zu schreiben."
+
+#: includes/controller/Admin.php:122 includes/controller/Admin.php:156
+msgid "No Feathers"
+msgstr "Keine Federn"
+
+#: includes/controller/Admin.php:122 includes/controller/Admin.php:156
+msgid "Please install a feather or two in order to add a post."
+msgstr "Bitte installiere eine Feder oder zwei um einen Artikel zu schreiben."
+
+#: includes/controller/Admin.php:180 includes/controller/Admin.php:232
+#: includes/controller/Admin.php:272 includes/controller/Admin.php:361
+#: includes/controller/Admin.php:402 includes/controller/Admin.php:462
+#: includes/controller/Admin.php:522 includes/controller/Admin.php:581
+#: includes/controller/Admin.php:647 includes/controller/Admin.php:717
+#: includes/controller/Admin.php:749 includes/controller/Admin.php:802
+#: includes/controller/Admin.php:2096 includes/controller/Admin.php:2123
+#: includes/controller/Admin.php:2152 includes/controller/Admin.php:2177
+msgid "Invalid security key."
+msgstr "Ungültiger Sicherheitsschlüssel."
+
+#: includes/controller/Admin.php:191
+msgid "Post created!"
+msgstr "Artikel erstellt!"
+
+#: includes/controller/Admin.php:202
+msgid "An ID is required to edit a post."
+msgstr "Es wird eine ID benötigt, um einen Artikel zu bearbeiten."
+
+#: includes/controller/Admin.php:207 includes/controller/Admin.php:229
+msgid "You do not have sufficient privileges to edit this post."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um diesen Artikel zu bearbeiten."
+
+#: includes/controller/Admin.php:226 includes/xmlrpc.php:263
+#: includes/xmlrpc.php:283 includes/xmlrpc.php:339 includes/xmlrpc.php:419
+#: includes/xmlrpc.php:439
+msgid "Post not found."
+msgstr "Artikel nicht gefunden."
+
+#: includes/controller/Admin.php:250 includes/controller/Admin.php:266
+#: includes/controller/Admin.php:456
+msgid "An ID is required to delete a post."
+msgstr "Es wird eine ID benötigt um einen Artikel zu löschen."
+
+#: includes/controller/Admin.php:280
+msgid "Post deleted."
+msgstr "Artikel gelöscht."
+
+#: includes/controller/Admin.php:289
+msgid "You do not have sufficient privileges to manage any posts."
+msgstr "Du verfügst nicht über ausreichende Rechte um Artikel zu verwalten."
+
+#: includes/controller/Admin.php:347 includes/controller/Admin.php:358
+msgid "You do not have sufficient privileges to create pages."
+msgstr "Du verfügst nicht über ausreichende Rechte um Seiten zu erzeugen."
+
+#: includes/controller/Admin.php:364 includes/controller/Admin.php:405
+msgid "Title and slug cannot be blank."
+msgstr "Titel und Kürzel müssen jeweils mindestens ein Zeichen lang sein."
+
+#: includes/controller/Admin.php:374
+msgid "Page created!"
+msgstr "Seite erzeugt!"
+
+#: includes/controller/Admin.php:383
+msgid "You do not have sufficient privileges to edit this page."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um diese Seite zu bearbeiten."
+
+#: includes/controller/Admin.php:386
+msgid "An ID is required to edit a page."
+msgstr "Es wird eine ID benötigt um eine Seite zu bearbeiten."
+
+#: includes/controller/Admin.php:399
+msgid "You do not have sufficient privileges to edit pages."
+msgstr "Du verfügst nicht über ausreichende Rechte um Seiten zu bearbeiten."
+
+#: includes/controller/Admin.php:410
+msgid "Page not found."
+msgstr "Seite nicht gefunden."
+
+#: includes/controller/Admin.php:430
+msgid "Pages reordered."
+msgstr "Seite neu angeordnet"
+
+#: includes/controller/Admin.php:439 includes/controller/Admin.php:453
+msgid "You do not have sufficient privileges to delete pages."
+msgstr "Du verfügst nicht über ausreichende Rechte um Seiten zu löschen."
+
+#: includes/controller/Admin.php:442
+msgid "An ID is required to delete a page."
+msgstr "Es wird eine ID benötigt, um eine Seite zu löschen."
+
+#: includes/controller/Admin.php:475
+msgid "Page deleted."
+msgstr "Seite gelöscht."
+
+#: includes/controller/Admin.php:485
+msgid "You do not have sufficient privileges to manage pages."
+msgstr "Du verfügst nicht über ausreichende Rechte um Seiten zu verwalten."
+
+#: includes/controller/Admin.php:502 includes/controller/Admin.php:519
+msgid "You do not have sufficient privileges to add users."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um neue Benutzer hinzuzufügen."
+
+#: includes/controller/Admin.php:525 includes/controller/Main.php:492
+#: install.php:111
+msgid "Please enter a username for your account."
+msgstr "Bitte gebe einen Benutzernamen für dein Konto an."
+
+#: includes/controller/Admin.php:529 includes/controller/Main.php:494
+msgid "That username is already in use."
+msgstr "Dieser Benutzername ist schon in Benutzung."
+
+#: includes/controller/Admin.php:532 includes/controller/Main.php:497
+#: install.php:114
+msgid "Password cannot be blank."
+msgstr "Passwörter müssen mindestens ein Zeichen enthalten."
+
+#: includes/controller/Admin.php:534 includes/controller/Main.php:499
+#: install.php:117
+msgid "Passwords do not match."
+msgstr "Die beiden Passwörter sind nicht identisch."
+
+#: includes/controller/Admin.php:537 includes/controller/Main.php:502
+msgid "E-mail address cannot be blank."
+msgstr "Bitte gebe eine E-Mail-Adresse an."
+
+#: includes/controller/Admin.php:539 includes/controller/Main.php:504
+msgid "Invalid e-mail address."
+msgstr "Ungültige E-Mail-Adresse."
+
+#: includes/controller/Admin.php:552
+msgid "User added."
+msgstr "Benutzer hinzugefügt"
+
+#: includes/controller/Admin.php:561
+msgid "You do not have sufficient privileges to edit this user."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um diesen Benutzer zu bearbeiten."
+
+#: includes/controller/Admin.php:564 includes/controller/Admin.php:578
+msgid "An ID is required to edit a user."
+msgstr "Es wird eine ID benötigt um einen Benutzer zu bearbeiten."
+
+#: includes/controller/Admin.php:586
+msgid "You do not have sufficient privileges to edit users."
+msgstr "Du verfügst nicht über ausreichende Rechte um Benutzer zu bearbeiten."
+
+#: includes/controller/Admin.php:592
+#, php-format
+msgid "Login &#8220;%s&#8221; is already in use."
+msgstr "Anmeldung &#8220;%s&#8221; ist schon in Benutzung."
+
+#: includes/controller/Admin.php:598
+msgid "User not found."
+msgstr "Benutzer nicht gefunden"
+
+#: includes/controller/Admin.php:613
+msgid "User updated."
+msgstr "Benutzer aktuallisiert."
+
+#: includes/controller/Admin.php:622 includes/controller/Admin.php:638
+msgid "You do not have sufficient privileges to delete users."
+msgstr "Du verfügst nicht über ausreichende Rechte um Benutzer zu löschen."
+
+#: includes/controller/Admin.php:625 includes/controller/Admin.php:641
+msgid "An ID is required to delete a user."
+msgstr "Es wird eine ID benötigt um einen Benutzer zu löschen."
+
+#: includes/controller/Admin.php:674
+msgid "User deleted."
+msgstr "Benutzer gelöscht."
+
+#: includes/controller/Admin.php:684
+msgid "You do not have sufficient privileges to manage users."
+msgstr "Du verfügst nicht über ausreichende Rechte um Benutzer zu verwalten."
+
+#: includes/controller/Admin.php:702 includes/controller/Admin.php:714
+msgid "You do not have sufficient privileges to create groups."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um neue Gruppen zu erstellen."
+
+#: includes/controller/Admin.php:721
+msgid "Group added."
+msgstr "Gruppe hinzugefügt."
+
+#: includes/controller/Admin.php:730 includes/controller/Admin.php:746
+msgid "You do not have sufficient privileges to edit groups."
+msgstr "Du verfügst nicht über ausreichende Rechte um Gruppen zu bearbeiten."
+
+#: includes/controller/Admin.php:733
+msgid "An ID is required to edit a group."
+msgstr "Es wird eine ID benötigt um eine Gruppe zu bearbeiten."
+
+#: includes/controller/Admin.php:757
+#, php-format
+msgid "Group name &#8220;%s&#8221; is already in use."
+msgstr "Gruppenname &#8220;%s&#8221; wird schon benutzt."
+
+#: includes/controller/Admin.php:763
+msgid "Group not found."
+msgstr "Gruppe nicht gefunden."
+
+#: includes/controller/Admin.php:767
+msgid "Group updated."
+msgstr "Gruppe aktuallisiert."
+
+#: includes/controller/Admin.php:776 includes/controller/Admin.php:793
+msgid "You do not have sufficient privileges to delete groups."
+msgstr "Du verfügst nicht über ausreichende Rechte um Gruppen zu löschen."
+
+#: includes/controller/Admin.php:779 includes/controller/Admin.php:796
+msgid "An ID is required to delete a group."
+msgstr "Es wird eine ID benötigt um eine Gruppe zu löschen."
+
+#: includes/controller/Admin.php:816
+msgid "Group deleted."
+msgstr "Gruppe gelöscht."
+
+#: includes/controller/Admin.php:826
+msgid "You do not have sufficient privileges to manage groups."
+msgstr "Du verfügst nicht über ausreichende Rechte um Gruppen zu verwalten."
+
+#: includes/controller/Admin.php:847
+msgid "You do not have sufficient privileges to export content."
+msgstr "Du verfügst nicht über ausreichende Rechte um Inhalte zu exportieren."
+
+#: includes/controller/Admin.php:1064 includes/controller/Admin.php:1078
+#: includes/controller/Admin.php:1203 includes/controller/Admin.php:1327
+#: includes/controller/Admin.php:1458 includes/controller/Admin.php:1530
+msgid "You do not have sufficient privileges to import content."
+msgstr "Du verfügst nicht über ausreichende Rechte um Inhalte zu importieren."
+
+#: includes/controller/Admin.php:1082
+msgid "Chyrp Posts export file is invalid."
+msgstr "Chyrp-Beitragsexportdatei ist ungültig."
+
+#: includes/controller/Admin.php:1086
+msgid "Chyrp Pages export file is invalid."
+msgstr "Chyrp-Seitenexportdatei ist ungültig."
+
+#: includes/controller/Admin.php:1191
+msgid "Chyrp content successfully imported!"
+msgstr "Chyrp-Inhalte wurden erfolgreich importiert!"
+
+#: includes/controller/Admin.php:1208 includes/controller/Admin.php:1337
+msgid "Missing Feather"
+msgstr "Fehlende Feder"
+
+#: includes/controller/Admin.php:1208
+msgid ""
+"Importing from WordPress requires the Text feather to be installed and "
+"enabled."
+msgstr ""
+"Um Inhalte von WordPress importieren zu können, musst du die Text-Feder "
+"installiert und aktiviert haben."
+
+#: includes/controller/Admin.php:1250
+msgid ""
+"File does not seem to be a valid WordPress export file, or could not be "
+"parsed. Please check your PHP error log."
+msgstr ""
+"Die Datei scheint keine gültige WordPress-Exportdatei zu sein, oder sie "
+"konnte nicht verarbeitet werden. Bitte überprüfe dein PHP-Fehlerlog."
+
+#: includes/controller/Admin.php:1315
+msgid "WordPress content successfully imported!"
+msgstr "Die WordPress Inhalte wurden erfolgreich importiert!"
+
+#: includes/controller/Admin.php:1337
+msgid ""
+"Importing from Tumblr requires the Text, Video, Audio, Chat, Photo, Quote, "
+"and Link feathers to be installed and enabled."
+msgstr ""
+"Um Inhalte von Tumblr importieren zu können, müssen die Text-, Audio-, "
+"Chat-, Photo-, Zitat- und Link-Federn installiert und aktiviert sein."
+
+#: includes/controller/Admin.php:1446
+msgid "Tumblr content successfully imported!"
+msgstr "Die Tumblr-Inhalte wurden erfoglreich importiert."
+
+#: includes/controller/Admin.php:1470
+msgid "Could not connect to the specified TextPattern database."
+msgstr "Konnte nicht mit der eingestellten TextPattern-Datenbank verbinden."
+
+#: includes/controller/Admin.php:1518
+msgid "TextPattern content successfully imported!"
+msgstr "TextPattern-Inhalte wurden erfolgreich importiert!"
+
+#: includes/controller/Admin.php:1542
+msgid "Could not connect to the specified MovableType database."
+msgstr "Konnte nicht mit der eingestellten MovableType-Datenbank verbinden."
+
+#: includes/controller/Admin.php:1623
+msgid "MovableType content successfully imported!"
+msgstr "MovableType-Inhalte wurden erfolgreich importiert!"
+
+#: includes/controller/Admin.php:1639
+msgid "Could not read modules directory."
+msgstr "Konnte nicht das Modulverzeichnis lesen."
+
+#: includes/controller/Admin.php:1737
+msgid "Could not read feathers directory."
+msgstr "Konnte die das Federnverzeichnis lesen."
+
+#: includes/controller/Admin.php:1781 includes/controller/Admin.php:1986
+#: includes/controller/Admin.php:2019 includes/controller/Admin.php:2078
+#: includes/controller/Admin.php:2117 includes/controller/Admin.php:2146
+#: includes/controller/Admin.php:2171
+msgid "You do not have sufficient privileges to change settings."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um Einstellungen zu verändern."
+
+#: includes/controller/Admin.php:1790 includes/controller/Admin.php:1826
+msgid "Could not read themes directory."
+msgstr "Konnte nicht das Themes-Verzeichnis lesen."
+
+#: includes/controller/Admin.php:1883
+msgid "Module already enabled."
+msgstr "Das Modul ist schon aktiviert."
+
+#: includes/controller/Admin.php:1886
+msgid "Feather already enabled."
+msgstr "Die Feder ist schon aktiviert."
+
+#: includes/controller/Admin.php:1954
+msgid "Module already disabled."
+msgstr "Das Modul ist schon deaktiviert."
+
+#: includes/controller/Admin.php:1957
+msgid "Feather already disabled."
+msgstr "Die Feder ist schon deaktiviert."
+
+#: includes/controller/Admin.php:1989 includes/controller/Admin.php:2022
+#: includes/controller/Admin.php:2055
+msgid "No Theme Specified"
+msgstr "Keine Theme angegeben"
+
+#: includes/controller/Admin.php:1989 includes/controller/Admin.php:2022
+msgid "You did not specify a theme to switch to."
+msgstr "Du hast keine Theme angegeben zu dem du wechseln möchtest."
+
+#: includes/controller/Admin.php:2010
+#, php-format
+msgid "Theme changed to &#8220;%s&#8221;."
+msgstr "Theme wechselte zu &#8220;%s&#8221;."
+
+#: includes/controller/Admin.php:2043
+#, php-format
+msgid "Admin theme changed to &#8220;%s&#8221;."
+msgstr "Admin-Theme wechselte zu &#8220;%s&#8221;."
+
+#: includes/controller/Admin.php:2052
+msgid "You do not have sufficient privileges to preview themes."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um die Vorschau von Themes zu "
+"sehen."
+
+#: includes/controller/Admin.php:2055
+msgid "You did not specify a theme to preview."
+msgstr ""
+"Du hast kein Theme angegeben, von welchem du die Vorschau sehen möchtest."
+
+#: includes/controller/Admin.php:2065
+#, php-format
+msgid "Stopped previewing &#8220;%s&#8221;."
+msgstr "Hielt die Vorschau von &#8220;%s&#8221; an."
+
+#: includes/controller/Admin.php:2068
+#, php-format
+msgid ""
+"Previewing theme &#8220;%s&#8221;. Press the theme's &#8220;Preview&#8221; "
+"button again to stop previewing."
+msgstr ""
+"Vorschau des Themes &#8220;%s&#8221;. Drücke den &#8220;Voschau&#8221; Knopf "
+"des Themes noch einmal um die Vorschau anzuhalten."
+
+#: includes/controller/Admin.php:2108 includes/controller/Admin.php:2137
+#: includes/controller/Admin.php:2162 includes/controller/Admin.php:2184
+msgid "Settings updated."
+msgstr "Einstellungen aktuallisiert."
+
+#: includes/controller/Admin.php:2193
+msgid "You do not have sufficient privileges to perform the update."
+msgstr ""
+"Du verfügst nicht über ausreichende Rechte um diese Aktuallisierung "
+"auszuführen."
+
+#: includes/controller/Admin.php:2212
+msgid "Filtering Results"
+msgstr "Filtere die Ergebnisse."
+
+#: includes/controller/Admin.php:2213
+msgid ""
+"Use this to search for specific items. You can either enter plain text to "
+"match the item with, or use keywords:"
+msgstr ""
+"Benutze es um nach spezifischen Beiträge zu suchen. Du kannst entweder "
+"reinen Text eingeben oder die folgenden Schlüsselwörter verwenden:"
+
+#: includes/controller/Admin.php:2214
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#: includes/controller/Admin.php:2215
+msgid "Usage"
+msgstr "Benutzung"
+
+#: includes/controller/Admin.php:2215
+msgid ""
+"Use this syntax to quickly match specific results. Keywords will modify the "
+"query to match items where <code>attr</code> is equal to <code>val</code> "
+"(case insensitive)."
+msgstr ""
+"Benutze diese Schreibweise um schnell spezifische Ergebnisse zu finden. Die "
+"Schlüsselwörter werden die Suchanfrage verändern um Beiträge zu treffen, bei "
+"denen <code>attr</code> identisch zu <code>val</code>ist (ohne Beachtung der "
+"Groß- und Kleinschreibung)."
+
+#: includes/controller/Admin.php:2218
+msgid "Post Slugs"
+msgstr "Artikelkürzel"
+
+#: includes/controller/Admin.php:2219
+msgid ""
+"Post slugs are strings to use for the URL of a post. They are directly "
+"responsible for the <code>(url)</code> attribute in a post's clean URL, or "
+"the <code>/?action=view&amp;url=<strong>foo</strong></code> in a post's "
+"dirty URL. A post slug should not contain any special characters other than "
+"hyphens."
+msgstr ""
+"Artikelkürzel sind Zeichenketten, welche für die URL des Artikels benutzt "
+"werden. Sie sind direkt verantwortlich für das <code>(url)</code> Attribut "
+"in der sauberen URL eines Artikels oder der <code>/?action=view&amp;"
+"url=<strong>foo</strong></code> in der dreckigen URL eines Artikels. Ein "
+"Artikelkürzel sollte keine speziellen Zeichen, abgesehen von Bindestriche, "
+"enthalten."
+
+#: includes/controller/Admin.php:2223
+msgid ""
+"Trackbacks are special urls to posts from other blogs that your post is "
+"related to or references. The other blog will be notified of your post, and "
+"in some cases a comment will automatically be added to the post in question "
+"linking back to your post. It's basically a way to network between blogs via "
+"posts."
+msgstr ""
+"Trackbacks sind speziele URLs von anderen Blogs, zu welchen deinen Blog in "
+"Verbundung steht, oder auf welche er verlinkt. Die anderen Blogs werden über "
+"deinen Artikel benachrichtigt und fügen automatisch, in manchen Fällen, "
+"einen Kommentar zu dem Artikel hinzu, in welchem auf deinen Artikel "
+"zurückverlinkt wird. Es ist im Grunde genommen ein Weg zwischen Blogs via "
+"Artikeln ein Netz zu weben."
+
+#: includes/controller/Admin.php:2227
+msgid ""
+"An alternate URL will allow you to keep Chyrp in its own directory, while "
+"having your site URLs point to someplace else. For example, you could have "
+"Chyrp in a <code>/chyrp</code> directory, and have your site at <code>/</"
+"code>. There are two requirements for this to work."
+msgstr ""
+"Ein alternative URL wird es dir erlauben Chyrp in seinem eigenen Verzeichnis "
+"zu halten, während die URL deiner Webseite woanders hinzeigt. Du kannst, zum "
+"Beispiel, Chyrp ins <code>/chyrp</code> Verzeichnis legen, und deine Website "
+"unter <code>/</code> haben. Es gibt zwei Vorraussetzungen, damit das läuft."
+
+#: includes/controller/Admin.php:2228
+msgid ""
+"Create an <code>index.php</code> file in your destination directory with the "
+"following in it:"
+msgstr ""
+"Erzeuge eine <code>index.php</code> Datei in deinem Zielverzeichnis mit "
+"folgendem Inhalt:"
+
+#: includes/controller/Admin.php:2232
+msgid ""
+"Move the .htaccess file from the original Chyrp directory, and change the "
+"<code>RewriteBase</code> line to reflect the new website location."
+msgstr ""
+"Verschiebe die .htaccess Datei vom originalen Chyrp-Verzeichnis und passe "
+"die <code>RewriteBase</code> Zeile an, um dem Wechsel des Ortes Rechnung "
+"zutragen."
+
+#: includes/controller/Admin.php:2262
+msgid "Page"
+msgstr "Seite"
+
+#: includes/controller/Admin.php:2303
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/controller/Admin.php:2305
+msgid "Content"
+msgstr "Inhalt"
+
+#: includes/controller/Admin.php:2309
+msgid "Routes"
+msgstr "Weiterleitungen"
+
+#: includes/controller/Admin.php:2418
+msgid "Manage"
+msgstr "Verwalte"
+
+#: includes/controller/Admin.php:2431
+msgid "Extend"
+msgstr "Erweitere"
+
+#: includes/controller/Admin.php:2457 includes/controller/Main.php:817
+msgid "Template Missing"
+msgstr "Vorlagen fehlen"
+
+#: includes/controller/Admin.php:2457 includes/controller/Main.php:817
+#, php-format
+msgid "Couldn't load template: <code>%s</code>"
+msgstr "Konnte die Vorlage nicht laden: <code>%s</code>"
+
+#: includes/controller/Main.php:310
+msgid "Archive"
+msgstr "Archiv"
+
+#: includes/controller/Main.php:313
+msgid "Please enter a valid year and month."
+msgstr "Bitte geben ein gültiges Jahr und einen gültigen Monat an."
+
+#: includes/controller/Main.php:325
+#, php-format
+msgid "Archive of %s"
+msgstr "Archiv von %s"
+
+#: includes/controller/Main.php:344
+msgid "Please enter a search term."
+msgstr "Bitte gebe eine Suchanfrage ein."
+
+#: includes/controller/Main.php:366
+#, php-format
+msgid "Search results for \"%s\""
+msgstr "Suchergebnisse für \"%s\""
+
+#: includes/controller/Main.php:377
+msgid "You do not have sufficient privileges to view drafts."
+msgstr "Du besitzt nicht die ausreichenden Rechte um Entwürfe zu sehen."
+
+#: includes/controller/Main.php:386
+msgid "Drafts"
+msgstr "Entwürfe"
+
+#: includes/controller/Main.php:408
+msgid ""
+"The feather theme file for this post does not exist. The post cannot be "
+"displayed."
+msgstr ""
+"Die Feder-Theme-Datei für diesen Artikel existiert nicht. Dieser Artikel "
+"kann nicht angezeigt werden."
+
+#: includes/controller/Main.php:411
+msgid "This post is a draft."
+msgstr "Dieser Artikel ist ein Entwurf."
+
+#: includes/controller/Main.php:417
+#, php-format
+msgid "This post is only visible by the following groups: %s."
+msgstr "Dieser Artikel ist nur sichtbar für die folgenden Gruppen: %s."
+
+#: includes/controller/Main.php:485
+msgid "Registration Disabled"
+msgstr "Registierung deaktiviert"
+
+#: includes/controller/Main.php:485
+msgid "I'm sorry, but this site is not allowing registration."
+msgstr "Entschuldigung, aber diese Webseite erlaubt keine Registrierung."
+
+#: includes/controller/Main.php:488 includes/controller/Main.php:546
+#: includes/controller/Main.php:575
+msgid "You're already logged in."
+msgstr "Du bist schon angemeldet."
+
+#: includes/controller/Main.php:507
+msgid "Incorrect captcha code. Please try again."
+msgstr "Falsche Captcha-Code Versuch es bitte nochmal."
+
+#: includes/controller/Main.php:522
+msgid ""
+"The email address you provided has been sent details to confirm registration."
+msgstr ""
+"Es wurden Informationen, wie du deine Registrierung bestätigen kannst, an "
+"deine angegebene E-Mail-Adresse geschickt."
+
+#: includes/controller/Main.php:524
+msgid "There was an error emailing the activation link to your email address."
+msgstr ""
+"Es trat ein Fehler, während dem Versuch einen Aktivierungslink an deine E-"
+"Mail-Adresse zu senden, auf."
+
+#: includes/controller/Main.php:532
+msgid "Registration successful."
+msgstr "Registrierung erfolgreich."
+
+#: includes/controller/Main.php:537
+msgid "Register"
+msgstr "Registriere"
+
+#: includes/controller/Main.php:549
+msgid "No token found."
+msgstr "Kein Token gefunden."
+
+#: includes/controller/Main.php:554
+msgid "A user with that email doesn't seem to exist in our database."
+msgstr ""
+"Ein Benutzer, mit deiner E-Mail-Adresse, scheint nicht in der Datenbank zu "
+"existieren."
+
+#: includes/controller/Main.php:557
+msgid "Invalid token."
+msgstr "Ungültiges Token."
+
+#: includes/controller/Main.php:564
+msgid "Your account is now active. Welcome aboard!"
+msgstr "Dein Konto ist nun aktiv. Willkommen an Bord!"
+
+#: includes/controller/Main.php:566
+msgid "Your account has already been activated."
+msgstr "Dein Konto wurde schon aktiviert."
+
+#: includes/controller/Main.php:587
+msgid "Incorrect username and/or password, please try again."
+msgstr "Falsche Benutzername und/oder Passwort, bitte probiere es noch einmal."
+
+#: includes/controller/Main.php:598
+msgid "Logged in."
+msgstr "Angemeldet."
+
+#: includes/controller/Main.php:602 includes/error.php:145
+msgid "Log In"
+msgstr "Anmelden"
+
+#: includes/controller/Main.php:611
+msgid "You aren't logged in."
+msgstr "Du bist nicht angemeldet."
+
+#: includes/controller/Main.php:617
+msgid "Logged out."
+msgstr "Abgemeldet."
+
+#: includes/controller/Main.php:626
+msgid "You must be logged in to access this area."
+msgstr "Du musst angemeldet sein, um auf diesen Bereich zuzugreifen."
+
+#: includes/controller/Main.php:642
+msgid "Your profile has been updated."
+msgstr "Dein Profil wurde aktualisiert."
+
+#: includes/controller/Main.php:656
+msgid "Invalid user specified."
+msgstr "Ungültiger Benutzer spezifiziert."
+
+#: includes/controller/Main.php:657 includes/controller/Main.php:689
+msgid "Lost Password"
+msgstr "Password vergessen"
+
+#: includes/controller/Main.php:663
+msgid "Lost Password Request"
+msgstr "Password-Vergessen Anforderung"
+
+#: includes/controller/Main.php:675
+#, php-format
+msgid ""
+"An e-mail has been sent to your e-mail address that contains a new password. "
+"Once you have logged in, you can change it at <a href=\"%s\">User Controls</"
+"a>."
+msgstr ""
+"Eine E-Mail wurde an deine E-Mail-Adresse versandt, welche dein neues "
+"Passwort enthält. Sobald du dich angemeldet hast, kannst du es in den <a "
+"href=\"%s\">Benutzereinstellungen</a> ändern."
+
+#: includes/controller/Main.php:685
+msgid "E-Mail could not be sent. Password change cancelled."
+msgstr "Die E-Mail konnte nicht versendet werden. Passwortwechsel abgebrochen."
+
+#: includes/error.php:4 includes/error.php:139 includes/helpers.php:76
+#, php-format
+msgid "%s on line %d"
+msgstr "%s in Zeile %d"
+
+#: includes/error.php:126
+msgid "Back"
+msgstr "Zurück"
+
+#: includes/error.php:136
+msgid "Backtrace"
+msgstr "Ablaufverfolgung"
+
+#: includes/helpers.php:144
+#, php-format
+msgid "%s is <strong>deprecated</strong> since version %s! Use %s instead."
+msgstr ""
+"%s ist <strong>veraltet</strong> seit Version %s! Benutze %s stattdessen."
+
+#: includes/helpers.php:146
+#, php-format
+msgid "%s is <strong>deprecated</strong> since version %s."
+msgstr "%s ist <strong>veraltet</strong> seit Version %s."
+
+#: includes/helpers.php:1009 includes/helpers.php:1014
+msgid "Invalid Extension"
+msgstr "Ungültige Erweiterung"
+
+#: includes/helpers.php:1009
+#, php-format
+msgid "Only %s files are accepted."
+msgstr "Nur %s Dateien werden akzeptiert."
+
+#: includes/helpers.php:1014
+#, php-format
+msgid "Only %s files are supported."
+msgstr "Nur %s Dateien werden unterstützt."
+
+#: includes/helpers.php:1200
+msgid "404 Not Found"
+msgstr "404 Nicht gefunden"
+
+#: includes/helpers.php:1200
+msgid "The requested page could not be located."
+msgstr "Die angefragte Seite konnte nicht gefunden werden."
+
+#: includes/helpers.php:1619
+msgid "and "
+msgstr "und "
+
+#: includes/javascript.php:86
+msgid "Post has been saved as a draft."
+msgstr "Der Artikel wurde als Entwurf gespeichert."
+
+#: includes/javascript.php:90
+msgid "Post has been published."
+msgstr "Der Artikel wurde veröffentlicht"
+
+#: includes/javascript.php:136
+msgid ""
+"Are you sure you want to delete this post?\\n\\nIt cannot be restored if you "
+"do this. If you wish to hide it, save it as a draft."
+msgstr ""
+"Bist du sicher, dass diesen Artikel löschen möchtest? \\n\\nEr kann nicht "
+"mehr wiederhergestellt werden, nach dem du ihn einmal gelöscht hast. "
+"Speichere ihn als Entwurf, wenn du ihn verstecken möchtest."
+
+#: includes/trackback.php:13
+msgid "Fake post ID, or nonexistent post."
+msgstr "Ungültige Artikel-ID or nicht existierender Artikel."
+
+#: includes/uploader.php:28 includes/uppload.php:61
+msgid "Upload Error"
+msgstr "Hochladefehler"
+
+#: includes/uploader.php:28 includes/uppload.php:61
+msgid "ERROR: Invalid Upload"
+msgstr "FEHLER: Ungültige hochzuladende Datei"
+
+#: includes/xmlrpc.php:75
+msgid "The from and to URLs cannot be the same."
+msgstr "Die von und zu URLs können nicht dieselben sein."
+
+#: includes/xmlrpc.php:78
+msgid "There doesn't seem to be a valid link in your request."
+msgstr "Es scheint so, als gebe es keinen gültigen Link in deiner Anfrage."
+
+#: includes/xmlrpc.php:88
+msgid "I can't find a post from that URL."
+msgstr "I kann keinen Artikel unter dieser URL finden."
+
+#: includes/xmlrpc.php:109
+msgid "There isn't a title on that page."
+msgstr "Es ist kein Titel auf dieser Seite."
+
+#: includes/xmlrpc.php:134
+#, php-format
+msgid "Pingback from %s to %s registered!"
+msgstr "Pingback von %s nach %s wurde registriert!"
+
+#: includes/xmlrpc.php:189
+msgid "Failed to write file."
+msgstr "Konnte Datei nicht schreiben."
+
+#: includes/xmlrpc.php:238 includes/xmlrpc.php:295
+msgid "Body can't be blank."
+msgstr "Der Textkörper kann nicht leer sein."
+
+#: includes/xmlrpc.php:301 includes/xmlrpc.php:441
+msgid "You don't have permission to edit this post."
+msgstr ""
+"Du verfügst nicht über die ausreichende Rechte um diesen Artikel zu "
+"bearbeiten."
+
+#: includes/xmlrpc.php:341
+msgid "You don't have permission to delete this post."
+msgstr ""
+"Du verfügst nicht über die ausreichende Rechte um diesen Artikel zu löschen."
+
+#: includes/xmlrpc.php:463
+#, php-format
+msgid "The %s feather is not enabled."
+msgstr "Die %s Feder ist nicht aktiviert."
+
+#: includes/xmlrpc.php:500
+msgid "XML-RPC support is disabled for this site."
+msgstr "XML-RPC Unterstützung ist deaktiviert für diese Webseite."
+
+#: includes/xmlrpc.php:504
+msgid "Login incorrect."
+msgstr "Anmeldung falsch."
+
+#: includes/xmlrpc.php:517
+#, php-format
+msgid "You don't have permission to %s posts/drafts."
+msgstr "Du verfügst nicht über die ausreichende Rechte um %s Artikel/Entwürfe."
+
+#: install.php:71
+msgid "Already Installed"
+msgstr "Schon installiert"
+
+#: install.php:71
+msgid "Chyrp is already correctly installed and configured."
+msgstr "Chyrp ist schon richtig installiert und konfiguriert."
+
+#: install.php:76
+#, php-format
+msgid ""
+"STOP! Before you go any further, you must create a .htaccess file in Chyrp's "
+"install directory and put this in it:\n"
+"<pre>%s</pre>"
+msgstr ""
+"HALT! Bevor du nur einen Schritt weiter gehst, musst du eine .htaccess Datei "
+"im Installationsverzeichnis von Chyrp erzeugen undin sie folgenden Text "
+"einfügen:\n"
+"<pre>%s</pre>"
+
+#: install.php:79
+msgid ""
+"Chyrp's includes directory is not writable by the server. In order for the "
+"installer to generate your configuration files, please CHMOD or CHOWN it so "
+"that Chyrp can write to it."
+msgstr ""
+"Das `includes` Verzeichnis von Chyrp kann vom Server nicht geschrieben "
+"werden. Damit die Installationsroutine deine Konfigurationsdateien erzeugen "
+"kann, solltest du bitte seine Berechtigungen via CHMOD oder CHOWN verändern, "
+"sodass Chyrp in es hnein schreiben kannt."
+
+#: install.php:83
+msgid ""
+"SQLite database file could not be created. Please make sure your server has "
+"write permissions to the location for the database."
+msgstr ""
+"Die SQLit Datenbankdatei konnte nicht erstellt werden. Bitte stelle sicher, "
+"dass dein Server die Schreib-Berechtigungen hat auf dem Ort für die "
+"Datenbank hat."
+
+#: install.php:93
+#, php-format
+msgid ""
+"Could not connect to the specified database:\n"
+"<pre>%s</pre>"
+msgstr ""
+"Konnte nicht zu der angegebenen Datenbank verbinden:\n"
+"<pre>%s</pre>"
+
+#: install.php:105
+msgid "Please enter a name for your website."
+msgstr "Bitte gebe einen Namen für deine Webseite an."
+
+#: install.php:108
+msgid "Time zone cannot be blank."
+msgstr "Bitte wähle eine Zeitzone aus."
+
+#: install.php:120
+msgid "E-Mail address cannot be blank."
+msgstr "Bitte gebe eine E-Mail-Adresse an."
+
+#: install.php:127 install.php:129
+#, php-format
+msgid ""
+"Could not generate .htaccess file. Clean URLs will not be available unless "
+"you create it and put this in it:\n"
+"<pre>%s</pre>"
+msgstr ""
+"Konnte nicht die `.htaccess` Datei erzeugen. Saubere URLs sind erst "
+"verfügbar, wenn du sie erzeugt hast und den folgenden Text in sie eingefügt "
+"hast:\n"
+"<pre>%s</pre>"
+
+#: install.php:253
+msgid "Change Settings"
+msgstr "Verändere die Einstellungen"
+
+#: install.php:254
+msgid "Toggle Extensions"
+msgstr "Schalte die Erweiterungen ein/aus"
+
+#: install.php:255
+msgid "View Site"
+msgstr "Besuche die Webseite"
+
+#: install.php:256
+msgid "View Private Posts"
+msgstr "Sehe private Artikel an"
+
+#: install.php:257
+msgid "View Scheduled Posts"
+msgstr "Sehe geplante Artikel an"
+
+#: install.php:258
+msgid "View Drafts"
+msgstr "Sehe die Entwürfe an"
+
+#: install.php:259
+msgid "View Own Drafts"
+msgstr "Sehe deine eigenen Entwürfe an"
+
+#: install.php:260
+msgid "Add Posts"
+msgstr "Füge Artikel hinzu"
+
+#: install.php:261
+msgid "Add Drafts"
+msgstr "Füge Entwürfe hinzu"
+
+#: install.php:262
+msgid "Edit Posts"
+msgstr "Bearbeite Artikel"
+
+#: install.php:263
+msgid "Edit Drafts"
+msgstr "Bearbeite Entwürfe"
+
+#: install.php:264
+msgid "Edit Own Posts"
+msgstr "Bearbeite deine eigenen Artikel"
+
+#: install.php:265
+msgid "Edit Own Drafts"
+msgstr "Bearbeite deine eigenen Entwürfe"
+
+#: install.php:266
+msgid "Delete Posts"
+msgstr "Lösche Artikel"
+
+#: install.php:267
+msgid "Delete Drafts"
+msgstr "Lösche Entwürfe"
+
+#: install.php:268
+msgid "Delete Own Posts"
+msgstr "Lösche deinen eigenen Artikel"
+
+#: install.php:269
+msgid "Delete Own Drafts"
+msgstr "Lösche deine eigenen Entwürfe"
+
+#: install.php:270
+msgid "Add Pages"
+msgstr "Füge Seiten hinzu"
+
+#: install.php:271
+msgid "Edit Pages"
+msgstr "Bearbeite Seiten"
+
+#: install.php:272
+msgid "Delete Pages"
+msgstr "Lösche Seiten"
+
+#: install.php:273
+msgid "Add Users"
+msgstr "Füge Benutzer hinzu"
+
+#: install.php:274
+msgid "Edit Users"
+msgstr "Bearbeite Benutzer"
+
+#: install.php:275
+msgid "Delete Users"
+msgstr "Lösche Benutzer"
+
+#: install.php:276
+msgid "Add Groups"
+msgstr "Füge Gruppen hinzu"
+
+#: install.php:277
+msgid "Edit Groups"
+msgstr "Bearbeite Gruppen"
+
+#: install.php:278
+msgid "Delete Groups"
+msgstr "Lösche Gruppen"
+
+#: install.php:508 install.php:572
+msgid "(full path)"
+msgstr "(vollständiger Pfad)"
+
+#: install.php:537
+msgid "Database Setup"
+msgstr "Datenbank Setup"
+
+#: install.php:539
+msgid "Adapter"
+msgstr "Adapter"
+
+#: install.php:555
+msgid "(usually ok as \"localhost\")"
+msgstr "(normalerweise okay als \"localhost\")"
+
+#: install.php:584
+msgid "Website Setup"
+msgstr "Webseiten Setup"
+
+#: install.php:587
+msgid "My Awesome Site"
+msgstr "Meine wundertolle Seite"
+
+#: install.php:607
+msgid "Admin Account"
+msgstr "Admin Konto"
+
+#: install.php:617
+msgid "(again)"
+msgstr "(wieder)"
+
+#: install.php:621
+msgid "E-Mail Address"
+msgstr "E-Mail-Adresse"
+
+#: install.php:625
+msgid "Install! &rarr;"
+msgstr "Installiere Chyrp! &rarr;"
+
+#: install.php:630
+msgid "Chyrp has been successfully installed and you have been logged in."
+msgstr "Chyrp wurde erfolgreich installiert und wurdest soeben angemeldet."
+
+#: install.php:632
+msgid "So, what now?"
+msgstr "So, und was jetzt?"
+
+#: install.php:634
+msgid "<strong>Delete install.php</strong>, you won't need it anymore."
+msgstr ""
+"<strong>Lösche die `install.php` Datei</strong>, du brauchst sie nun nicht "
+"mehr."
+
+#: install.php:636
+msgid "CHMOD <code>/includes/caches</code> to 777."
+msgstr "CHMOD `/includes/caches` zu 777."
+
+#: install.php:638
+msgid "Look for a translation for your language."
+msgstr "Suche nache Übersetzungen für deine Sprache."
+
+#: install.php:639
+msgid "Install some Modules."
+msgstr "Installiere ein paar Module."
+
+#: install.php:640
+msgid "Find some Feathers you want."
+msgstr "Finde ein paar Federn, die dir gefallen."
+
+#: install.php:641
+msgid "Read &#8220;Getting Started&#8221;"
+msgstr "Lese &#8220;Erste Schritte (auf Englisch)&#8221;"
+
+#: install.php:643
+msgid "Take me to my site! &rarr;"
+msgstr "Bring mich auf meine Webseite! &rarr;"
+
+#: upgrade.php:151
+#, php-format
+msgid "Setting %s to %s..."
+msgstr "Setze %s auf %s..."
+
+#: upgrade.php:184
+#, php-format
+msgid "Adding %s setting..."
+msgstr "Füge %s Festlegung hinzu..."
+
+#: upgrade.php:206
+#, php-format
+msgid "Removing %s setting..."
+msgstr "Entferne %s Festlegung..."
+
+#: upgrade.php:249
+msgid "success!"
+msgstr "Erfolgreich!"
+
+#: upgrade.php:251
+msgid "failed!"
+msgstr "Fehlgeschlagen!"
+
+#: upgrade.php:274
+msgid "Generating .htaccess file..."
+msgstr "Erzeuge die `.htaccess` Datei..."
+
+#: upgrade.php:275 upgrade.php:278
+msgid "Try creating the file and/or CHMODding it to 777 temporarily."
+msgstr "Versuche die Datei zu erzeugen und/oder CHMODde sie zu 777 temporär."
+
+#: upgrade.php:277
+msgid "Appending to .htaccess file..."
+msgstr "Füge etwas an die `.htaccess` Datei an..."
+
+#: upgrade.php:290 upgrade.php:295 upgrade.php:352
+msgid "Please manually delete the directory root/updates"
+msgstr "Bitte entferne das Verzeichnis `root/updates` händisch."
+
+#: upgrade.php:299
+msgid "Please manually create the directory root/updates"
+msgstr "Bitte erzeuge das Verzeichnis `root/updates` händisch."
+
+#: upgrade.php:303
+msgid "Please manually create the directory root/old"
+msgstr "Bitte erzeuge das Verzeichnis `root/old` händisch."
+
+#: upgrade.php:348
+msgid ""
+"Please manually copy the file root/old/includes/config.yaml.php to root/"
+"includes/config.yaml.php"
+msgstr ""
+"Bitte kopiere die Datei `root/old/includes/config.yaml.php` händisch nach "
+"`root/includes/config.yaml.php`"
+
+#: upgrade.php:365
+msgid "Renaming tweets table to posts..."
+msgstr "Benenne die Tweets-Tabelle zu den Artikeln um..."
+
+#: upgrade.php:369
+msgid "Renaming add_tweet permission to add_post..."
+msgstr "Benenne `add_tweet` Berechtigungen zu `add_post` um..."
+
+#: upgrade.php:373
+msgid "Renaming edit_tweet permission to edit_post..."
+msgstr "Benenne `edit_tweet` Berechtigungen zu `edit_post` um..."
+
+#: upgrade.php:377
+msgid "Renaming delete_tweet permission to delete_post..."
+msgstr "Benenne `delete_tweet` Berechtigungen zu `delete_post` um..."
+
+#: upgrade.php:406
+msgid "Adding parent_id column to pages table..."
+msgstr "Füge `parent_id` Spalte zur Seitentabelle hinzu..."
+
+#: upgrade.php:420
+msgid "Adding list_order column to pages table..."
+msgstr "Füge `list_order` Spalte zur Seitentabelle hinzu..."
+
+#: upgrade.php:441
+msgid "Moving /includes/config.yml.php to /includes/config.yaml.php..."
+msgstr ""
+"Verschiebe `/includes/config.yml.php` nach `/includes/config.yaml.php`..."
+
+#: upgrade.php:442 upgrade.php:461
+msgid "Try CHMODding the file to 777."
+msgstr "Versuche die Datei zu CHMODden zu 777."
+
+#: upgrade.php:460
+msgid "Updating protection code in config.yaml.php..."
+msgstr "Aktualisiere den Sicherheitscode in der Datei `config.yaml.php`..."
+
+#: upgrade.php:493
+msgid "Renaming /upload directory to /uploads..."
+msgstr "Benenne das /upload Verzeichnis zu `/uploads` um..."
+
+#: upgrade.php:493
+msgid "Try CHMODding the directory to 777."
+msgstr "Versuche das Verzeichnis zu CHMODden zu 777."
+
+#: upgrade.php:528
+#, php-format
+msgid "Sanitizing XML data of post #%d..."
+msgstr "Säubere die XML-Daten des Artikels #%d..."
+
+#: upgrade.php:559
+msgid "Backing up current groups table..."
+msgstr "Sichere die aktuelle Gruppentabelle..."
+
+#: upgrade.php:578
+msgid "Dropping old groups table..."
+msgstr "Entferne die alte Gruppentabelle..."
+
+#: upgrade.php:587
+msgid "Creating new groups table..."
+msgstr "Erzeuge neue Gruppentabelle..."
+
+#: upgrade.php:591
+#, php-format
+msgid "Restoring group \"%s\"..."
+msgstr "Stelle die Gruppe \"%s\" wiederher..."
+
+#: upgrade.php:611 upgrade.php:692
+msgid "Creating new permissions table..."
+msgstr "Erzeuge neue  Rechtetabelle..."
+
+#: upgrade.php:641
+#, php-format
+msgid "Inserting permission \"%s\"..."
+msgstr "Füge Berechtigung \"%s\" ein..."
+
+#: upgrade.php:656
+msgid "Creating `sessions` table..."
+msgstr "Erzeuge `sessions` Tabelle..."
+
+#: upgrade.php:682
+msgid "Backing up current permissions table..."
+msgstr "Sichere die aktuelle Rechtetabelle..."
+
+#: upgrade.php:689
+msgid "Dropping old permissions table..."
+msgstr "Lösche die alte Rechtetabelle..."
+
+#: upgrade.php:726
+#, php-format
+msgid "Restoring permission \"%s\"..."
+msgstr "Stelle Berechtigung \"%s\" wiederher..."
+
+#: upgrade.php:754
+#, php-format
+msgid "Updating custom route %s to new format..."
+msgstr ""
+"Aktualisiere die benutzerspezifische Weiterleitung %s, damit sie zum neuen "
+"Format passt..."
+
+#: upgrade.php:769
+msgid "Removing database.yaml.php file..."
+msgstr "Entferne die `database.yaml.php` Datei..."
+
+#: upgrade.php:770
+msgid "Try deleting it manually."
+msgstr "Versuche es manuell zu löschen."
+
+#: upgrade.php:797
+msgid "Updating `status` column on `posts` table..."
+msgstr "Aktualisiere die `status` Spalte in der `posts` Tabelle..."
+
+#: upgrade.php:799 upgrade.php:913
+msgid "Backing up `posts` table..."
+msgstr "Sichere die `posts` Tabelle..."
+
+#: upgrade.php:807 upgrade.php:921
+msgid "Dropping `posts` table..."
+msgstr "Entferne die alte `posts` Tabelle..."
+
+#: upgrade.php:813 upgrade.php:927
+msgid "Creating `posts` table..."
+msgstr "Erzeuge die `posts` Tabelle..."
+
+#: upgrade.php:828 upgrade.php:834 upgrade.php:1112 upgrade.php:1118
+#, php-format
+msgid "Backup written to %s."
+msgstr "Sicherung gespeichert unter %s."
+
+#: upgrade.php:833 upgrade.php:945
+#, php-format
+msgid "Restoring post #%d..."
+msgstr "Stelle Artikel #%d wiederher..."
+
+#: upgrade.php:854
+msgid "Creating `post_attributes` table..."
+msgstr "Erzeuge `post_attributes` Tabelle..."
+
+#: upgrade.php:906
+#, php-format
+msgid "Migrating attributes of post #%d..."
+msgstr "Migriere die Attribute des Artikels #%d..."
+
+#: upgrade.php:911
+msgid "Removing `xml` column from `posts` table..."
+msgstr "Entferne die `xml` Spalte der `posts` Tabelle..."
+
+#: upgrade.php:967
+msgid "Backing up permissions..."
+msgstr "Sichere die Berechtigungen..."
+
+#: upgrade.php:975
+msgid "Dropping `permissions` table..."
+msgstr "Entferne die `permissions` Tabelle..."
+
+#: upgrade.php:978
+msgid "Creating `permissions` table..."
+msgstr "Erzeuge die `permissions` Tabelle..."
+
+#: upgrade.php:987
+#, php-format
+msgid "Restoring permission `%s`..."
+msgstr "Sichere Berechtigung `%s`..."
+
+#: upgrade.php:1005
+msgid "Backing up groups..."
+msgstr "Sichere die Gruppen..."
+
+#: upgrade.php:1019
+msgid "Dropping `groups` table..."
+msgstr "Entferne die `groups` Tabelle..."
+
+#: upgrade.php:1022
+msgid "Creating `groups` table..."
+msgstr "Erzeuge die `groups` Tabelle..."
+
+#: upgrade.php:1030
+#, php-format
+msgid "Restoring group `%s`..."
+msgstr "Sichere die Gruppe `%s`..."
+
+#: upgrade.php:1037
+#, php-format
+msgid "Restoring permission `%s` on group `%s`..."
+msgstr "Sichere die Berechtigung `%s` der Gruppe `%s`..."
+
+#: upgrade.php:1050
+msgid "Removing `includes/config.php` file..."
+msgstr "Entferne die `includes/config.php` Datei..."
+
+#: upgrade.php:1054
+msgid "Removing `includes/database.php` file..."
+msgstr "Entferne die `includes/database.php` Datei..."
+
+#: upgrade.php:1058
+msgid "Removing `includes/rss.php` file..."
+msgstr "Entferne die `includes/rss.php` Datei..."
+
+#: upgrade.php:1062
+msgid "Removing `includes/bookmarklet.php` file..."
+msgstr "Entferne die `includes/bookmarklet.php` Datei..."
+
+#: upgrade.php:1080
+msgid "Updating `password` column on `users` table..."
+msgstr "Aktualiesiere die `password` Spalte der `users` Tabelle..."
+
+#: upgrade.php:1082
+msgid "Backing up `users` table..."
+msgstr "Sichere die `users` Tabelle..."
+
+#: upgrade.php:1090
+msgid "Dropping `users` table..."
+msgstr "Entferne die `users` Tabelle..."
+
+#: upgrade.php:1096
+msgid "Creating `users` table..."
+msgstr "Erzeuge die `users` Tabelle..."
+
+#: upgrade.php:1117
+#, php-format
+msgid "Restoring user #%d..."
+msgstr "Sichere Benutzer #%d..."
+
+#: upgrade.php:1138
+msgid "Adding `is_approved` column on `users` table..."
+msgstr "Füge die `is_approved` Spalte der `users` Tabelle hinzu..."
+
+#: upgrade.php:1151
+msgid "Chyrp Upgrader"
+msgstr "Chyrp Aktualisierungsroutine"
+
+#: upgrade.php:1343
+#, php-format
+msgid "Calling <span class=\"yay\">%s</span> Module's upgrader..."
+msgstr ""
+"Rufe die Aktualisierungsroutine des Modules <span class=\"yay\">%s</span> "
+"auf..."
+
+#: upgrade.php:1355
+#, php-format
+msgid "Calling <span class=\"yay\">%s</span> Feather's upgrader..."
+msgstr ""
+"Rufe die Aktualisierungsroutine der Feder <span class=\"yay\">%s</span> "
+"auf..."
+
+#: upgrade.php:1368
+msgid "What now?"
+msgstr "Und was nun?"
+
+#: upgrade.php:1370
+msgid ""
+"Look through the results up there for any failed tasks. If you see any and "
+"you can't figure out why, you can ask for help at the <a href=\"http://chyrp."
+"net/discuss/\">Chyrp Community</a>."
+msgstr ""
+"Durchsuche die Ergebnisse hier und schaue, ob es irgendwelche "
+"fehlgeschlagenen Aufgaben gibt. Wenn du irgendwelche siehst, und du nicht "
+"herausfinden kannst, warum sie fehlgeschlagen sind, kannst du im <a href="
+"\"http://chyrp.net/discuss/\">Chyrp Forum (auf Englisch)</a> nach Hilfe "
+"fragen."
+
+#: upgrade.php:1371
+msgid ""
+"If any of your Modules or Feathers have new versions available for this "
+"release, check if an <code>upgrades.php</code> file exists in their main "
+"directory. If that file exists, run this upgrader again after enabling the "
+"Module or Feather and it will run the upgrade tasks."
+msgstr ""
+"Wenn es von irgendeinem deiner Module oder Federn eine neue Version gibt, "
+"für diese Veröffentlichung, dann schau nach ob es eine <code>upgrades.php</"
+"code> Datei in ihrem Hauptverzeichnis gibt. Falls diese Datei existiert, "
+"dann lasse diese Aktualisierungsroutine noch einmal laufen, nach dem du das "
+"entsprechende Modul bzw. die entsprechende Feder aktiviert hast, das/die "
+"dann sich aktualisiert."
+
+#: upgrade.php:1372
+msgid ""
+"When you are done, you can delete this file. It doesn't pose any real threat "
+"on its own, but you should delete it anyway, just to be sure."
+msgstr ""
+"Du kannst diese Datei löschen, wenn du fertig bist. Sie kann zwar keinen "
+"wirklichen Schaden anrichten, aber du solltest sie trotzdem löschen, nur um "
+"auf Nummer sicher zu gehen."
+
+#: upgrade.php:1374
+msgid "Tips"
+msgstr "Hinweise"
+
+#: upgrade.php:1376
+msgid "If the admin area looks weird, try clearing your cache."
+msgstr ""
+"Versuche deinen Browsercache zu leeren, wenn der Adminbereich komisch "
+"aussieht."
+
+#: upgrade.php:1377
+msgid ""
+"As of v2.0, Chyrp uses time zones to determine timestamps. Please set your "
+"installation to the correct timezone at <a href=\"admin/index.php?"
+"action=general_settings\">General Settings</a>."
+msgstr ""
+"Seit Version 2.0 benutzt Chyrp die Zeitzonen um die Zeitstempel zu "
+"bestimmen. Bitte setzt die korrekte Zeitzone deiner Installation via <a href="
+"\"admin/index.php?action=general_settings\">Allgemeine Einstellungen</a>."
+
+#: upgrade.php:1378
+msgid ""
+"Check the group permissions &ndash; they might have changed, and certain "
+"Admin functionality would be disabled until you enabled the permissions for "
+"the particular groups. <a href=\"admin/index.php?action=manage_groups"
+"\">Manage Groups &rarr;</a>"
+msgstr ""
+"Überprüfe die Gruppenberechtigungnen &ndash; sie könnten sich verändert "
+"haben und bestimmte Admin-Funktionalitäten würde deaktiviert sein, bis du "
+"die Berechtingungen für die jeweiligen Gruppen vergeben hast. <a href="
+"\"admin/index.php?action=manage_groups\">Verwalte die Gruppen &rarr;</a>"
+
+#: upgrade.php:1380
+msgid "All done!"
+msgstr "Fertig!"
+
+#: upgrade.php:1382
+msgid "Halt!"
+msgstr "Halt!"
+
+#: upgrade.php:1383
+msgid ""
+"That button may look ready for a-clickin&rsquo;, but please take these "
+"preemptive measures before indulging:"
+msgstr ""
+"Dieser Knopf mag zwar bereit für einen Klicken aussehen&rsquo;, bitte "
+"beachte trotzdem noch die folgenden Vorsichtsmaßnahmen bevor du fortfährst:"
+
+#: upgrade.php:1385
+msgid "<strong>Make a backup of your installation.</strong> You never know."
+msgstr ""
+"<strong>Bitte fertige unbedingt eine Sicherung deiner Installation an.</"
+"strong>  Warum? Man weiß nie, was schief gehen kann."
+
+#: upgrade.php:1386
+msgid "Disable any third-party Modules and Feathers."
+msgstr "Deaktiviere alle Dritt-Anbieter Module und Federn."
+
+#: upgrade.php:1387
+msgid "Ensure that the Chyrp installation directory is writable by the server."
+msgstr ""
+"Stelle sicher, dass das Chyrp-Installationsverzeichnis schreibbar für den "
+"Server ist."
+
+#: upgrade.php:1389
+msgid ""
+"If any of the upgrade processes fail, you can safely keep refreshing &ndash; "
+"it will only attempt to do tasks that are not already successfully "
+"completed. If you cannot figure something out, please make a topic (with "
+"details!) at the <a href=\"http://chyrp.net/discuss/\">Chyrp Community</a>."
+msgstr ""
+"Wenn irgendeiner der Aktualisierungsprozesse schiefläuft kannst du ohne "
+"Probleme noch Probleme Chyrp noch einmal aktuallisieren &ndash; es werden "
+"dann jeweils nur die zuvor fehlgeschlagenen Prozesse laufen gelassen. Wenn "
+"die nicht weißt, wie du mit etwas umgehen sollst, dann eröffne bitte ein "
+"Thema (mit informationen) im <a href=\"http://chyrp.net/discuss/\">Chyrp "
+"Forum (auf Englisch)</a>. "
+
+#: upgrade.php:1391
+msgid "Upgrade me!"
+msgstr "Aktualisier mich!"
