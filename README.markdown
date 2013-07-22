@@ -1,12 +1,14 @@
 German localization of [Chyrp](http://chyrp.net/) v2.5
 ============
-This is a german localization of Chyrp. I built it with the help of [Poedit](http://www.poedit.net/).
+This is a german localization of Chyrp, built with the help of [Poedit](http://www.poedit.net/).
 
 The purpose of this localization is to make Chyrp usable for german projects/blogs.
 
+A working example can be seen [here](http://mostlynerdless.de/triviale-gruppe/).
+
 TODO
 -----------
-Translate the modules
+Include more themes, modules and feathers.
 
 ************
 
