@@ -1,0 +1,99 @@
+# Chyrp v2.5 Translation File.
+# Copyright (C) 2012 Chyrp Team
+# This file is distributed under the same license as the Chyrp v2.5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chyrp v2.5\n"
+"Report-Msgid-Bugs-To: email@chyrp.net\n"
+"POT-Creation-Date: 2012-12-09 19:24+0000\n"
+"PO-Revision-Date: 2013-07-22 11:29+0100\n"
+"Last-Translator: Johannes Bechberger <me@mostlynerdless.de>\n"
+"Language-Team: German <me@mostlynerdless.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: Deutsch\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/likes/info.yaml:1
+msgid "Likes"
+msgstr "Likes"
+
+#: modules/likes/info.yaml:4
+msgid "Allow users to like a post."
+msgstr "Erlaube Benutzern eine Artikel zu liken."
+
+#: modules/likes/info.yaml:6
+msgid "Are you sure you want to remove all Likes from the database?"
+msgstr "Bist du sicher, dass du alle Likes aus der Datenbank löschen möchtest?"
+
+#: modules/likes/likes.php:17 modules/likes/likes.php:23
+msgid "Access Denied"
+msgstr "Zugriff verweigert"
+
+#: modules/likes/likes.php:17
+msgid "You do not have sufficient privileges to change settings."
+msgstr ""
+"Du  verfügst nicht über die ausreichenden Rechte, um die Einstellungen zu "
+"verändern."
+
+#: modules/likes/likes.php:23
+msgid "Invalid security key."
+msgstr "Ungültiger Sicherheitsschlüssel."
+
+#: modules/likes/likes.php:40
+msgid "Settings updated."
+msgstr "Einstellungen aktualisiert."
+
+#: modules/likes/model.Like.php:145
+msgid "Like Posts"
+msgstr "Like Artikel"
+
+#: modules/likes/model.Like.php:146
+msgid "Unlike Posts"
+msgstr "Unlike Artikel"
+
+#: modules/likes/pages/admin/like_settings.twig:3
+msgid "Like Settings"
+msgstr "Like Einstellungen"
+
+#: modules/likes/pages/admin/like_settings.twig:9
+msgid "Show On Front Page"
+msgstr "Zeige auf der Frontseite"
+
+#: modules/likes/pages/admin/like_settings.twig:10
+#: modules/likes/pages/admin/like_settings.twig:15
+msgid "enabled"
+msgstr "aktiviert"
+
+#: modules/likes/pages/admin/like_settings.twig:11
+msgid "Enables like functionality on front page posts."
+msgstr "Ermöglicht die Like-Funktionalität auf Frontseitenbeiträgen."
+
+#: modules/likes/pages/admin/like_settings.twig:14
+msgid "Like With Text"
+msgstr "Like mit Text"
+
+#: modules/likes/pages/admin/like_settings.twig:16
+msgid "Enables like with text links (i.e. Like/Unlike)."
+msgstr "Ermöglicht Like mit Textverweisen (d.h. Like/Unlike)"
+
+#: modules/likes/pages/admin/like_settings.twig:19
+msgid "Like Button Image"
+msgstr "Like-Knopfbild"
+
+#: modules/likes/pages/admin/like_settings.twig:25
+msgid "Likes Image"
+msgstr "Likes Bild"
+
+#: modules/likes/pages/admin/like_settings.twig:30
+msgid "Like Texts"
+msgstr "Like Text"
+
+#: modules/likes/pages/admin/like_settings.twig:41
+msgid "Update"
+msgstr "Aktualisiere"

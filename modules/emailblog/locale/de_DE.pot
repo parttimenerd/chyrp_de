@@ -1,0 +1,108 @@
+# Chyrp v2.5 Translation File.
+# Copyright (C) 2012 Chyrp Team
+# This file is distributed under the same license as the Chyrp v2.5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chyrp v2.5\n"
+"Report-Msgid-Bugs-To: email@chyrp.net\n"
+"POT-Creation-Date: 2012-12-09 19:24+0000\n"
+"PO-Revision-Date: 2013-07-22 11:18+0100\n"
+"Last-Translator: Johannes Bechberger <me@mostlynerdless.de>\n"
+"Language-Team: German <me@mostlynerdless.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: Deutsch\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/emailblog/emailblog.php:36 modules/emailblog/emailblog.php:42
+msgid "Access Denied"
+msgstr "Zugriff verweigert"
+
+#: modules/emailblog/emailblog.php:36
+msgid "You do not have sufficient privileges to change settings."
+msgstr ""
+"Du  verfügst nicht über die ausreichenden Rechte, um die Einstellungen zu "
+"verändern."
+
+#: modules/emailblog/emailblog.php:42
+msgid "Invalid security key."
+msgstr "Ungültiger Sicherheitsschlüssel."
+
+#: modules/emailblog/emailblog.php:52
+msgid "Settings updated."
+msgstr "Einstellungen aktualisiert."
+
+#: modules/emailblog/info.yaml:1
+msgid "EmailBlog"
+msgstr "EmailBlog"
+
+#: modules/emailblog/info.yaml:4
+msgid "Allows you to email a gmail account to post a new message."
+msgstr ""
+"Ermöglicht es dir einem gmail Konto eine Mail zu schicken um einen neuen "
+"Artikel zu veröffentlichen."
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:3
+msgid "EmailBlog Settings"
+msgstr "EmailBlog Einstellungen"
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:9
+msgid "IMAP Server"
+msgstr "IMAP-Server"
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:11
+msgid ""
+"The address to your IMAP server. If you don't know it, just leave this at "
+"the default and use Gmail."
+msgstr ""
+"Die Adresse deines IMAP-Servers. Verwende die Standardeinstellung, wenn du "
+"sie nicht weiß, und verwende Gmail."
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:14
+msgid "Username"
+msgstr "Benutzername"
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:16
+msgid "Your username on the IMAP server, usually your email."
+msgstr ""
+"Dein Benutzername auf deinem IMAP-Server, normalerweise deine E-Mail-Adresse."
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:19
+msgid "Email Password"
+msgstr "E-Mail-Passwort"
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:21
+msgid "Password to the above email address"
+msgstr "Passwort zu der obigen E-Mail-Adresse"
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:24
+msgid "Email Filter"
+msgstr "E-Mail-Filter"
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:26
+msgid ""
+"You must set the subject of your email that you want to post to match this "
+"exactly."
+msgstr ""
+"Jede Betreff einer E-Mail, mit der du einen Artikel veröffentlichen "
+"möchtest, muss genau diesem entsprechen."
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:30
+msgid "Check for new Messages Every __ Minutes"
+msgstr "Überprüfe, ob es eine neue Nachricht gibt, alle __ Minuten"
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:32
+msgid ""
+"Decreasing the time between will result in faster posting but a slower site."
+msgstr ""
+"Die Verringerung der Zeitspanne, wird zu einer schnelleren Veröffentlichung "
+"aber auch einer langsameren Webseite führen."
+
+#: modules/emailblog/pages/admin/emailblog_settings.twig:36
+msgid "Update"
+msgstr "Aktualisierung"

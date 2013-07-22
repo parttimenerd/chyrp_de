@@ -1,0 +1,81 @@
+# Chyrp v2.5 Translation File.
+# Copyright (C) 2012 Chyrp Team
+# This file is distributed under the same license as the Chyrp v2.5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chyrp v2.5\n"
+"Report-Msgid-Bugs-To: email@chyrp.net\n"
+"POT-Creation-Date: 2012-12-09 19:24+0000\n"
+"PO-Revision-Date: 2013-07-22 11:09+0100\n"
+"Last-Translator: Johannes Bechberger <me@mostlynerdless.de>\n"
+"Language-Team: German <me@mostlynerdless.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: Deutsch\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/dropbox/dropbox.php:47 modules/dropbox/dropbox.php:53
+#: modules/dropbox/dropbox.php:83 modules/dropbox/dropbox.php:114
+msgid "Access Denied"
+msgstr "Zugriff verweigert"
+
+#: modules/dropbox/dropbox.php:47 modules/dropbox/dropbox.php:83
+msgid "You do not have sufficient privileges to change settings."
+msgstr ""
+"Du verfügst nicht über die ausreichenden Rechte um die Einstellungen zu "
+"verändern."
+
+#: modules/dropbox/dropbox.php:53
+msgid "Invalid security key."
+msgstr "Ungültiger Sicherheitsschlüssel."
+
+#: modules/dropbox/dropbox.php:78
+msgid "Settings updated."
+msgstr "Einstellungen aktualisiert."
+
+#: modules/dropbox/dropbox.php:114
+msgid "You do not have sufficient privileges to create posts."
+msgstr ""
+"Du verfügst nicht über die ausreichenden Rechte um Artikel zu schreiben."
+
+#: modules/dropbox/info.yaml:1
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: modules/dropbox/info.yaml:4
+msgid "Interacts with the Dropbox API, fetches posts in Markdown/YAML format."
+msgstr "Arbeitet mit der Dropbox API, holt die Artikel im Markdown/YAML-Format"
+
+#: modules/dropbox/pages/admin/dropbox_settings.twig:3
+msgid "Dropbox Settings"
+msgstr "Dropbox-Einstellungen"
+
+#: modules/dropbox/pages/admin/dropbox_settings.twig:10
+msgid "Authorize"
+msgstr "Autorisiere"
+
+#: modules/dropbox/pages/admin/dropbox_settings.twig:21
+msgid "Dropbox App Key"
+msgstr "Dropbox-App-Schlüssel"
+
+#: modules/dropbox/pages/admin/dropbox_settings.twig:25
+msgid "Dropbox App Secret"
+msgstr "Dropbox-App-Sicherheitsfrage"
+
+#: modules/dropbox/pages/admin/dropbox_settings.twig:29
+msgid "Update"
+msgstr "Aktualisiere"
+
+#: modules/dropbox/pages/admin/manage_dropbox.twig:3
+#: modules/dropbox/pages/admin/manage_dropbox.twig:8
+msgid "Synchronize Dropbox Posts"
+msgstr "Synchronisiere mit den Dropbox-Artikeln"
+
+#: modules/dropbox/pages/admin/manage_dropbox.twig:10
+msgid "Synchronize"
+msgstr "Synchronisiere"

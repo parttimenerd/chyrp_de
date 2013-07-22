@@ -36,6 +36,10 @@
 
     require_once INCLUDES_DIR."/model/User.php";
 
+    # Enable the german localization
+    set_locale("de_DE");
+    load_translator("chyrp", dirname(__FILE__) . '/includes/locale/de_DE.mo');
+
     # Prepare the Config interface.
     $config = Config::current();
 
