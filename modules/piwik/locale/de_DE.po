@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Chyrp v2.5\n"
+"POT-Creation-Date: 2013-07-22 12:44+0100\n"
+"PO-Revision-Date: 2013-07-22 12:45+0100\n"
+"Last-Translator: Johannes Bechberger <me@mostlynerdless.de>\n"
+"Language-Team: German <me@mostlynerdless.de>\n"
+"Language: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\chyrp_de\\modules\\shadowbox\n"
+
+#: C:\xampp\htdocs\chyrp_de\modules\shadowbox/shadowbox.php:14
+#: C:\xampp\htdocs\chyrp_de\modules\shadowbox/shadowbox.php:20
+msgid "Access Denied"
+msgstr "Zugriff verweigert"
+
+#: C:\xampp\htdocs\chyrp_de\modules\shadowbox/shadowbox.php:14
+msgid "You do not have sufficient privileges to change settings."
+msgstr ""
+"Du verfügst nicht über die ausreichenden Rechte, um die Einstellungen zu "
+"verändern."
+
+#: C:\xampp\htdocs\chyrp_de\modules\shadowbox/shadowbox.php:20
+msgid "Invalid security key."
+msgstr "Ungültiger Sicherheitsschlüssel."
+
+#: C:\xampp\htdocs\chyrp_de\modules\shadowbox/shadowbox.php:32
+msgid "Settings updated."
+msgstr "Einstellungen aktualisiert."
+
+#: C:\xampp\htdocs\chyrp_de\modules\shadowbox/shadowbox.php:36
+msgid "Shadowbox"
+msgstr "Schattenbox"

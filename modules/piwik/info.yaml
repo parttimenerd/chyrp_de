@@ -1,0 +1,13 @@
+name: Piwik Analytics
+url: https://srctwig.com/
+version: 0.1
+description: Easily insert Piwik Analytics tracking code to your Chyrp site. Based on Google Analytics Module written by Arian Xhezairi.
+author:
+  name: Bernhard Schuster
+  url: https://srctwig.com/
+notifications:
+  - Please remember to set all properties, double check recommended.
+confirm: Do you want to remove Piwik Analytics configuration from you Chyrp install?
+
+
+# 0.1: Initial release.

@@ -1,0 +1,60 @@
+# Chyrp v2.1 Translation File.
+# Copyright (C) 2011 Chyrp Team
+# This file is distributed under the same license as the Chyrp v2.1 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chyrp v2.5\n"
+"Report-Msgid-Bugs-To: dan@pimley.net\n"
+"POT-Creation-Date: 2012-12-12 27:15+0000\n"
+"PO-Revision-Date: 2013-07-22 12:13+0100\n"
+"Last-Translator: Johannes Bechberger <me@mostlynerdless.de>\n"
+"Language-Team: German <me@mostlynerdless.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: Deutsch\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: feathers/article/info.yaml:1
+msgid "Article"
+msgstr "Artikel"
+
+#: feathers/article/info.yaml:5
+msgid "A feather for articles."
+msgstr "Eine Feder für Artikel."
+
+#: feathers/article/article.php:6
+msgid "Headline"
+msgstr "Kopfzeile"
+
+#: feathers/article/article.php:9
+msgid "Byline"
+msgstr "Von-Zeile"
+
+#: feathers/article/article.php:13
+msgid "Author"
+msgstr "Autor"
+
+#: feathers/article/article.php:17
+msgid "Body"
+msgstr "Textkörper"
+
+#: feathers/article/article.php:21
+msgid "Hero image"
+msgstr "Artikelbild"
+
+#: feathers/article/article.php:26
+msgid "Image attribution"
+msgstr "Bildherkunft"
+
+#: feathers/article/article.php:40
+msgid "Headline can't be blank."
+msgstr "Die Kopfzeile kann nicht leer sein."
+
+#: feathers/article/article.php:126
+msgid "Alt-Text"
+msgstr "Alternativ-Text"

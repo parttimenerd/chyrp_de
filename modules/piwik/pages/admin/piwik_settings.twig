@@ -1,0 +1,52 @@
+{% extends "layout.twig" %}
+
+{% block title %}${ "Piwik Settings" | translate("piwik") }{% endblock %}
+
+{% block content %}
+    <h1>${ "Piwik Settings" | translate("piwik") }</h1>
+    <form id="piwik_settings" class="split" action="{% admin "piwik_settings" %}" method="post">
+        <fieldset>
+          <p>
+              <label for="piwik_url">
+                  ${ "piwik host" | translate("piwik") }
+                  <span class="sub">${ "(i.e. <code>127.0.0.1/webapps/piwik/</code>, <code>localhost/piwik/</code>, <code>example.com/test/piwik-1.7.1/</code>, <code>www.example.com/piwikrenamedfolder/</code>" | translate }</span>
+                  <span class="sub">${ "(note the trailing / and the missing http(s) protocol prefix))" | translate }</span>
+              </label>
+              <input class="text" type="text" name="piwik_url" value="${ site.piwik_url | escape }" size="35" id="piwik_url" />
+          </p>
+          <br />
+          <br />
+          <p>
+              <label for="piwik_siteid">
+                  ${ "piwik siteid" | translate("piwik") }
+                  <span class="sub">${ "The siteid which piwik uses for tracking (the number, not the name)" | translate }</span>
+              </label>
+              <input class="text" type="text" name="piwik_siteid" value="${ site.piwik_siteid | escape }" size="35" id="piwik_siteid" />
+          </p>
+          <br />
+          <p>
+              <label for="piwik_script_position">
+                  ${ "Tracking code position" | translate("piwik") }
+              </label>
+              <select name="piwik_script_position">
+                  <option value="head"${ "head" | option_selected(site.piwik_script_position) }>${ "before </head> tag" | e | translate("piwik") }</option>
+                  <option value="body"${ "body" | option_selected(site.piwik_script_position) }>${ "before </body> tag" | e | translate("piwik") }</option>
+              </select>
+          </p>
+          <br />
+          <p>
+              <label for="exclude_group">
+                  ${ "Exclude Group" | translate("piwik") }
+              </label>
+              <small>${ "Use group permissions to exclude certain groups (e.g., Admins) from being tracked." | translate("piwik") }</small>
+          </p>
+          <p class="buttons">
+              <p>
+                  <button type="submit" class="yay"><img src="$theme_url/images/icons/success.png" alt="success" />${ "Update" | translate("piwik") }</button>
+              </p>
+          </p>
+
+          <input type="hidden" name="hash" value="$site.secure_hashkey" id="hash" />
+        </fieldset>
+    </form>
+{% endblock %}

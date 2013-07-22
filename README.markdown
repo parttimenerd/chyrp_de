@@ -6,11 +6,12 @@ The purpose of this localization is to make Chyrp usable for german projects/blo
 
 A working example can be seen [here](http://mostlynerdless.de/triviale-gruppe/).
 
-TODO
------------
-Include more themes, modules and feathers.
+It includes also some localized non standard modules and feathers from [chyrp.net](http://chyrp.net/extend).
+
 
 ************
+
+
 
 Chyrp is a blogging engine designed to be lightweight while retaining functionality. It is driven by PHP and MySQL (or SQLite), and has a great standard theme and robust module engine. You can personalize and modify it any way you want.
 

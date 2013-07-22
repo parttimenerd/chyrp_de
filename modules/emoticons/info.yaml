@@ -1,0 +1,9 @@
+name: Emoticons
+url: http://r.osey.me/2012/01/chyrp-plugin-emoticons/
+version: 1.0.1
+description: Convert smileys into images. Originally Created May 2011.
+author:
+  name: Rose Pritchard
+  url: http://rosepritchard.ca
+conflicts:
+  - none

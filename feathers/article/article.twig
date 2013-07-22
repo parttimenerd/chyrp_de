@@ -1,0 +1,26 @@
+{% extends "content/post.twig" %}
+
+{% block content %}
+    <article>
+        <header>
+            <h1 class="headline">
+                <a href="$post.url" rel="bookmark" title="${ "Permanent Link to" | translate } &quot;$post.headline&quot;{% if post['author'] %} by ${ post['author'] }{% endif %}">$post.headline</a>
+            </h1>
+        </header>
+        {% if post['hero'] or post['byline'] %}
+        <section>
+            {% if post['hero'] %}
+            ${ feathers['article'].hero_tag(post, 480, 360, "quality=80") }
+            {% endif %}
+            {% if post['byline'] %}
+            <h6 class="byline">
+                $post.byline
+            </h6>
+            {% endif %}
+        </section>
+        {% endif %}
+        <section>
+        ${ post.body | read_more }
+        </section>
+    </article>
+{% endblock %}
