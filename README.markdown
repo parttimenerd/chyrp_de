@@ -8,6 +8,9 @@ A working example can be seen [here](http://mostlynerdless.de/triviale-gruppe/).
 
 It includes also some localized non standard modules and feathers from [chyrp.net](http://chyrp.net/extend).
 
+###TODO
+Improve the localization (this requires the actual code to be edited).
+
 
 ************
 
