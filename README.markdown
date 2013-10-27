@@ -4,8 +4,6 @@ This is a german localization of Chyrp, built with the help of [Poedit](http://w
 
 The purpose of this localization is to make Chyrp usable for german projects/blogs.
 
-A working example can be seen [here](http://mostlynerdless.de/triviale-gruppe/).
-
 It includes also some localized non standard modules and feathers from [chyrp.net](http://chyrp.net/extend).
 
 ###TODO
